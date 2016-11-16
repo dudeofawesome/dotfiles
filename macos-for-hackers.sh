@@ -68,6 +68,18 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
+# Copy dotfiles into place
+###############################################################################
+
+echo ""
+echo "Copying dotfiles into place"
+cp -ar .config/ ~/
+cp -a .editorconfig ~/
+cp -a .hyper.js ~/
+cp -ar .iterm ~/
+cp -a .vimrc ~/
+
+###############################################################################
 # Homebrew / Casks / Gems / Node Modules
 ###############################################################################
 
