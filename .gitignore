@@ -1,0 +1,14 @@
+.config/configstore
+
+# Fish
+.config/fish/fishd.*
+.config/fish/conf.d/omf.fish
+.config/fish/functions/fish_prompt.fish
+# Oh my Fish
+.config/omf/pkg
+
+# Git
+.config/git
+
+# Heroku
+.config/heroku
