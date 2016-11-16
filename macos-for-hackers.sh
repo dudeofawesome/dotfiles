@@ -101,6 +101,7 @@ brew install wget
 brew install nmap
 brew install imagemagick --with-webp
 brew install libyaml
+brew install cmake
 
 echo ""
 echo "Install Node.JS"
@@ -147,7 +148,7 @@ sudo npm install -g jscs jshint
 gem install scss_lint
 
 echo ""
-echo "Installing Fish Shell"
+echo "Installing Fish Shell and setting it as the default shell"
 brew install fish
 echo "/usr/local/bin/fish" >> /etc/shells
 chsh -s echo /usr/local/bin/fish
@@ -172,6 +173,12 @@ brew install certbot
 echo ""
 echo "Installing Vim"
 brew install vim --override-system-vi
+vim -c VundleUpdate -c quitall
+pushd ~/.vim/bundle/YouCompleteMe
+./install.py --tern-completer
+cd ../vimproc.vim
+make
+popd
 
 echo ""
 echo "Installing Homebrew Cask"
