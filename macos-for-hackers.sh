@@ -46,7 +46,7 @@ echo ""
 
 echo ""
 cecho "Have you read through the script you're about to run and " $red
-cecho "understood that it will make changes to your computer? (y/n)" $red
+cecho "understood that it will make changes to your computer? (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   CONTINUE=true
@@ -195,6 +195,10 @@ brew cask install firefox
 echo ""
 echo "Installing Opera"
 brew cask install opera
+
+echo ""
+echo "Installing Skype"
+brew cask install skype
 
 echo ""
 echo "Installing VSCode"
@@ -349,16 +353,18 @@ brew cask install qlstephen
 brew cask install qlvideo
 
 echo ""
-echo "Installing Fira Code font"
+echo "Installing fonts"
 brew tap caskroom/fonts
 brew cask install font-fira-code
+brew cask install font-roboto
+brew cask install font-roboto-mono-for-powerline
 
 ###############################################################################
 # General UI/UX
 ###############################################################################
 
 echo ""
-echo "Would you like to set your computer name (as done via System Preferences >> Sharing)?  (y/n)"
+cecho "Would you like to set your computer name (as done via System Preferences >> Sharing)? (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   echo "What would you like it to be?"
@@ -370,7 +376,7 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 fi
 
 echo ""
-echo "Change indexing order and disable some search results in Spotlight? (y/n)"
+cecho "Change indexing order and disable some search results in Spotlight? (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   # Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
@@ -430,18 +436,15 @@ echo "Automatically quit printer app once the print jobs complete"
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 echo ""
-echo "Save to disk, rather than iCloud, by default? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-fi
+echo "Save to disk, rather than iCloud, by default"
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
 echo ""
 echo "Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 echo ""
-echo "Check for software updates daily, not just once per week? (y/n)"
+cecho "Check for software updates daily, not just once per week? (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
@@ -452,20 +455,9 @@ echo "Removing duplicates in the 'Open With' menu"
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 
 echo ""
-echo "Disable smart quotes and smart dashes? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
-  defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
-fi
-
-echo ""
-echo "Add ability to toggle between Light and Dark mode in Yosemite using ctrl+opt+cmd+t? (y/n)"
+echo "Add ability to toggle between Light and Dark mode in Yosemite using ctrl+opt+cmd+t"
 # http://www.reddit.com/r/apple/comments/2jr6s2/1010_i_found_a_way_to_dynamically_switch_between/
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
-fi
+sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
 
 echo ""
 echo "Disable Photos.app from starting everytime a device is plugged in"
@@ -476,7 +468,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 ###############################################################################
 
 echo ""
-echo "Disable hibernation? (speeds up entering sleep mode) (y/n)"
+cecho "Disable hibernation? (speeds up entering sleep mode) (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   sudo pmset -a hibernatemode 0
@@ -535,6 +527,10 @@ echo "Show icons for hard drives, servers, and removable media on the desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 
 echo ""
+echo "Don't show icons for internal hard drives on the desktop"
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
+
+echo ""
 echo "Show hidden files in Finder by default"
 defaults write com.apple.Finder AppleShowAllFiles -bool true
 
@@ -561,9 +557,12 @@ defaults write com.apple.finder FXPreferredViewStyle Clmv
 
 echo ""
 echo "Set ~/ as the default location for new Finder windows"
-# Set Desktop as the default location for new Finder windows
-defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
+
+echo ""
+echo "Show tab view for new Finder windows"
+defaults write com.apple.finder ShowTabView -bool true
 
 echo ""
 echo "When performing a search, search the current folder by default"
@@ -576,27 +575,14 @@ defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
 defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 echo ""
-echo "Avoid creation of .DS_Store files on network volumes? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-fi
+echo "Avoid creation of .DS_Store files on network volumes?"
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 echo ""
-echo "Show item info near icons on the desktop and in other icon views? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
-  /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
-  /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
-fi
-
-echo ""
-echo "Show item info to the right of the icons on the desktop? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  /usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
-fi
+echo "Show item info near icons on the desktop and in other icon views?"
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
 echo ""
 echo "Enable AirDrop over Ethernet and on unsupported Macs running Lion"
@@ -606,11 +592,10 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Dock & Mission Control
 ###############################################################################
 
-echo "Wipe all (default) app icons from the Dock? (y/n)"
-echo "(This is only really useful when setting up a new Mac, or if you don't use the Dock to launch apps.)"
+echo "Wipe all (default) app icons from the Dock and add a different set? (y/n)" $yellow
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write com.apple.dock persistent-apps -array <<EOD
+  defaults write com.apple.dock persistent-apps -array "$(cat <<EOM
 (
         {
         GUID = 1585529326;
@@ -749,8 +734,53 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
         "tile-type" = "file-tile";
     }
 )
-EOD
+EOM
+)"
+  defaults write com.apple.dock persistent-others -array "$(cat <<EOM
+(
+        {
+        GUID = 1981353352;
+        "tile-data" =         {
+            arrangement = 1;
+            book = <626f6f6b ac020000 00000410 30000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 c0010000 0c000000 01010000 4170706c 69636174 696f6e73 04000000 01060000 04000000 08000000 04030000 48000000 00000000 04000000 01060000 24000000 08000000 00040000 41bd30a0 0e000000 18000000 01020000 02000000 00000000 0f000000 00000000 00000000 00000000 00000000 01050000 08000000 01090000 66696c65 3a2f2f2f 0d000000 01010000 4d616369 6e746f73 68205353 44000000 08000000 04030000 0080e608 77000000 08000000 00040000 41bd7bb4 5c000000 24000000 01010000 35394238 44323742 2d323132 302d3345 31322d38 3037452d 43303435 37443939 32373538 18000000 01020000 81010000 01000000 ef130000 01000000 00000000 00000000 01000000 01010000 2f000000 9e000000 01020000 39336231 65303738 32323736 35663837 36303062 30343764 30393565 61383136 36643033 66333230 3b303030 30303030 303b3030 30303030 30303b30 30303030 30303030 30303030 3032303b 636f6d2e 6170706c 652e6170 702d7361 6e64626f 782e7265 61642d77 72697465 3b303030 30303030 313b3031 30303030 31313b30 30303030 30303030 30303030 3034383b 2f617070 6c696361 74696f6e 73000000 b4000000 feffffff 01000000 00000000 0e000000 04100000 18000000 00000000 05100000 34000000 00000000 10100000 50000000 00000000 40100000 40000000 00000000 02200000 0c010000 00000000 05200000 78000000 00000000 10200000 88000000 00000000 11200000 c0000000 00000000 12200000 a0000000 00000000 13200000 b0000000 00000000 20200000 ec000000 00000000 30200000 70000000 00000000 01d00000 70000000 00000000 80f00000 18010000 00000000>;
+            displayas = 1;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Applications;
+            "file-mod-date" = 3555822314;
+            "file-type" = 2;
+            "parent-mod-date" = 3555821650;
+            preferreditemsize = "-1";
+            showas = 2;
+        };
+        "tile-type" = "directory-tile";
+    },
+        {
+        GUID = 11088873;
+        "tile-data" =         {
+            arrangement = 2;
+            book = <626f6f6b 48030000 00000410 30000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 44020000 05000000 01010000 55736572 73000000 0d000000 01010000 44756465 4f664177 65736f6d 65000000 09000000 01010000 446f776e 6c6f6164 73000000 0c000000 01060000 04000000 14000000 2c000000 08000000 04030000 53300600 00000000 08000000 04030000 da870600 00000000 08000000 04030000 dd870600 00000000 0c000000 01060000 54000000 64000000 74000000 08000000 00040000 41bb4ddc a5000000 18000000 01020000 02000000 00000000 0f000000 00000000 00000000 00000000 08000000 04030000 01000000 00000000 04000000 03030000 f5010000 08000000 01090000 66696c65 3a2f2f2f 0d000000 01010000 4d616369 6e746f73 68205353 44000000 08000000 04030000 0080e608 77000000 08000000 00040000 41bd7bb4 5c000000 24000000 01010000 35394238 44323742 2d323132 302d3345 31322d38 3037452d 43303435 37443939 32373538 18000000 01020000 81010000 01000000 ef130000 01000000 00000000 00000000 01000000 01010000 2f000000 00000000 01050000 af000000 01020000 66323131 30663634 64383734 64333339 63353230 65653665 32636664 34616464 65663439 62663862 3b303030 30303030 303b3030 30303030 30303b30 30303030 30303030 30303030 3032303b 636f6d2e 6170706c 652e6170 702d7361 6e64626f 782e7265 61642d77 72697465 3b303030 30303030 313b3031 30303030 31313b30 30303030 30303030 30303638 3764643b 2f757365 72732f64 7564656f 66617765 736f6d65 2f646f77 6e6c6f61 64730000 cc000000 feffffff 01000000 00000000 10000000 04100000 40000000 00000000 05100000 84000000 00000000 10100000 a8000000 00000000 40100000 98000000 00000000 02200000 78010000 00000000 05200000 e4000000 00000000 10200000 f4000000 00000000 11200000 2c010000 00000000 12200000 0c010000 00000000 13200000 1c010000 00000000 20200000 58010000 00000000 30200000 84010000 00000000 01c00000 c8000000 00000000 11c00000 14000000 00000000 12c00000 d8000000 00000000 80f00000 8c010000 00000000>;
+            displayas = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Users/DudeOfAwesome/Downloads/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Downloads;
+            "file-mod-date" = 3555799618;
+            "file-type" = 2;
+            "parent-mod-date" = 3555799773;
+            preferreditemsize = "-1";
+            showas = 1;
+        };
+        "tile-type" = "directory-tile";
+    }
+)
+EOM
+)"
 fi
+
 
 echo ""
 echo "Setting the icon size of Dock items to 36 pixels for optimal size/screen-realestate"
@@ -875,24 +905,6 @@ echo "Prevent Time Machine from prompting to use new hard drives as backup volum
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 ###############################################################################
-# Messages                                                                    #
-###############################################################################
-
-echo ""
-echo "Disable smart quotes in Messages.app? (it's annoying for messages that contain code) (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
-fi
-
-echo ""
-echo "Disable continuous spell checking in Messages.app? (y/n)"
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
-fi
-
-###############################################################################
 # Transmission.app                                                            #
 ###############################################################################
 
@@ -947,6 +959,8 @@ cecho "#########################################################################
 echo ""
 echo ""
 cecho "Note that some of these changes require a logout/restart to take effect." $red
+cecho "Press enter when you are ready" $yellow
+read
 cecho "Killing some open applications in order to take effect." $red
 echo ""
 
