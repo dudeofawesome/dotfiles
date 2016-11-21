@@ -266,6 +266,10 @@ echo "Installing Android Studio"
 brew cask install android-studio
 
 echo ""
+echo "Installing Android SDK"
+brew install android-sdk
+
+echo ""
 echo "Installing Docker"
 brew cask install docker
 
