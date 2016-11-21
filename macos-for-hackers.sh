@@ -47,6 +47,7 @@ echo ""
 echo ""
 cecho "Have you read through the script you're about to run and " $red
 cecho "understood that it will make changes to your computer? (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   CONTINUE=true
@@ -365,6 +366,7 @@ brew cask install font-roboto-mono-for-powerline
 
 echo ""
 cecho "Would you like to set your computer name (as done via System Preferences >> Sharing)? (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   echo "What would you like it to be?"
@@ -377,6 +379,7 @@ fi
 
 echo ""
 cecho "Change indexing order and disable some search results in Spotlight? (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   # Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
@@ -445,6 +448,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 
 echo ""
 cecho "Check for software updates daily, not just once per week? (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
@@ -469,6 +473,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 echo ""
 cecho "Disable hibernation? (speeds up entering sleep mode) (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   sudo pmset -a hibernatemode 0
@@ -593,6 +598,7 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 ###############################################################################
 
 echo "Wipe all (default) app icons from the Dock and add a different set? (y/n)" $yellow
+tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   defaults write com.apple.dock persistent-apps -array "$(cat <<EOM
@@ -960,6 +966,7 @@ echo ""
 echo ""
 cecho "Note that some of these changes require a logout/restart to take effect." $red
 cecho "Press enter when you are ready" $yellow
+tput bel
 read
 cecho "Killing some open applications in order to take effect." $red
 echo ""
