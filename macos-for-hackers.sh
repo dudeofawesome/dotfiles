@@ -458,18 +458,6 @@ echo ""
 echo "Disable Photos.app from starting everytime a device is plugged in"
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
-###############################################################################
-# General Power and Performance modifications
-###############################################################################
-
-echo ""
-cecho "Disable hibernation? (speeds up entering sleep mode) (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  sudo pmset -a hibernatemode 0
-fi
-
 ################################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
 ###############################################################################
@@ -790,7 +778,7 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.dock "expose-group-by-app" -bool false
 
 echo ""
-echo "Remove the auto-hiding delay from Dock"
+echo "Reduce the auto-hiding delay in Dock"
 defaults write com.apple.dock autohide-delay -float 0.1
 defaults write com.apple.dock autohide-time-modifier -float 0.4
 
