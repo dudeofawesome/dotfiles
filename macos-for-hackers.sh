@@ -7,13 +7,17 @@ source libs.sh
 CONTINUE=false
 
 echo ""
-cecho "###############################################" $red
-cecho "#        DO NOT RUN THIS SCRIPT BLINDLY       #" $red
-cecho "#         YOU'LL PROBABLY REGRET IT...        #" $red
-cecho "#                                             #" $red
-cecho "#              READ IT THOROUGHLY             #" $red
-cecho "#         AND EDIT TO SUIT YOUR NEEDS         #" $red
-cecho "###############################################" $red
+cecho "┌─────────────────────────────────────────────┐" $red
+cecho "│ ×-+       macOS Post-Install Script         │" $red
+cecho "├─────────────────────────────────────────────┤" $red
+cecho "│                                             │" $red
+cecho "│        DO NOT RUN THIS SCRIPT BLINDLY       │" $red
+cecho "│         YOU'LL PROBABLY REGRET IT...        │" $red
+cecho "│                                             │" $red
+cecho "│              READ IT THOROUGHLY             │" $red
+cecho "│         AND EDIT TO SUIT YOUR NEEDS         │" $red
+cecho "│                                             │" $red
+cecho "└─────────────────────────────────────────────┘" $red
 echo ""
 
 
