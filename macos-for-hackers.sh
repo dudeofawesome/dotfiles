@@ -32,6 +32,9 @@ if ! $CONTINUE; then
   exit
 fi
 
+# Ask the user some questions about their device
+source device-info.sh
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -359,13 +362,9 @@ brew cask install font-roboto-mono-for-powerline > /dev/null
 # General UI/UX
 ###############################################################################
 
-echo ""
-cecho "Would you like to set your computer name (as done via System Preferences >> Sharing)? (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  echo "What would you like it to be?"
-  read COMPUTER_NAME
+if [[ ! -z "$COMPUTER_NAME" ]]; then
+  echo ""
+  echo "Setting your computer name to $COMPUTER_NAME"
   sudo scutil --set ComputerName $COMPUTER_NAME
   sudo scutil --set HostName $COMPUTER_NAME
   sudo scutil --set LocalHostName $COMPUTER_NAME
@@ -438,10 +437,8 @@ echo "Reveal IP address, hostname, OS version, etc. when clicking the clock in t
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 echo ""
-cecho "Check for software updates daily, not just once per week? (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+cecho "Check for software updates daily, not just once per week" $yellow
+if ! $HACKINTOSH; then
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 fi
 
