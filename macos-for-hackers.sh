@@ -36,6 +36,9 @@ if ! $CONTINUE; then
   exit
 fi
 
+# Ask the user some questions about their device
+source device-info.sh
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -54,7 +57,6 @@ echo "Copying dotfiles into place"
 cp -ar .config/ ~/
 cp -a .editorconfig ~/
 cp -a .hyper.js ~/
-cp -ar .iterm ~/
 cp -a .vimrc ~/
 
 ###############################################################################
@@ -62,95 +64,100 @@ cp -a .vimrc ~/
 ###############################################################################
 
 echo ""
-echo "Installing Homebrew from http://brew.sh"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-brew upgrade
+echo "Installing Homebrew from http://brew.sh 🍺"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null > /dev/null
+brew update > /dev/null
+brew upgrade > /dev/null
 
 echo ""
 echo "Install GNU core utilities (those that come with macOS are outdated)."
 echo "Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`."
-brew install coreutils
+brew install coreutils > /dev/null
 
 echo ""
-echo "Install some utilities"
-brew install git
-brew install wget
-brew install nmap
-brew install imagemagick --with-webp
-brew install libyaml
-brew install cmake
+echo "Install some utilities (this could take a while)"
+brew install git > /dev/null
+brew install wget > /dev/null
+brew install nmap > /dev/null
+brew install imagemagick --with-webp > /dev/null
+brew install libyaml > /dev/null
+brew install cmake > /dev/null
 
 echo ""
-echo "Install Node.JS"
-brew install node
+echo "Install Node.JS ${green}⬢${reset}"
+brew install node > /dev/null
 sudo npm install -g n
-sudo n latest
-sudo n lts
+sudo n latest > /dev/null
+sudo n lts > /dev/null
 
 echo ""
 echo "Install Foreman"
-gem install foreman
+sudo gem install foreman > /dev/null
 
 echo ""
 echo "Install Travis CLI"
-gem install travis
+sudo gem install travis > /dev/null
 
 echo ""
 echo "Install Ionic"
-sudo npm install -g cordova
-sudo npm install -g ionic
-sudo npm install -g ios-sim
+sudo npm install -g cordova -s > /dev/null
+sudo npm install -g ionic -s > /dev/null
+sudo npm install -g ios-sim -s > /dev/null
 
 echo ""
-echo "Install Yarn"
-sudo npm install -g yarn
+echo "Install Yarn 🐈"
+sudo npm install -g yarn -s > /dev/null
 
 echo ""
 echo "Install Typescript"
-sudo npm install -g typescript tslint ts-node
+sudo npm install -g typescript tslint ts-node -s > /dev/null
 
 echo ""
 echo "Install StrongLoop"
-sudo npm install -g strongloop apiconnect
+sudo npm install -g strongloop apiconnect -s > /dev/null
 
 echo ""
 echo "Install Gulp and Grunt"
-sudo npm install -g gulp grunt-cli
+sudo npm install -g gulp grunt-cli -s > /dev/null
 
 echo ""
 echo "Install a few other utils"
-sudo npm install -g http-server
-sudo npm install -g sass-lint
-sudo npm install -g jscs jshint
-gem install scss_lint
+sudo npm install -g http-server -s > /dev/null
+sudo npm install -g sass-lint -s > /dev/null
+sudo npm install -g jscs jshint -s > /dev/null
+sudo gem install scss_lint > /dev/null
 
 echo ""
-echo "Installing Fish Shell and setting it as the default shell"
-brew install fish
-sudo echo "/usr/local/bin/fish" >> /etc/shells
-chsh -s echo /usr/local/bin/fish
+echo "Installing Fish Shell and setting it as the default shell 🐟"
+brew install fish > /dev/null
+sudo sh -c 'echo "/usr/local/bin/fish" >> /etc/shells'
+chsh -s /usr/local/bin/fish
 
 echo ""
-echo "Installing Oh my Fish"
-curl -L http://get.oh-my.fish | fish
+echo "Installing Oh my Fish (and a few plugins) 🐟"
+tput bel
+cd ~/Downloads
+curl -L http://get.oh-my.fish > install-fish
+chmod +x install-fish
+./install-fish -y --noninteractive
 fish -c "omf install osx"
 fish -c "omf install node-binpath"
 fish -c "omf install @dudeofawesome/fish-plugin-npm"
 fish -c "omf install agnoster"
+cd ~
 
 echo ""
 echo "Installing ZSH"
-brew install zsh
-sudo echo "/usr/local/bin/zsh" >> /etc/shells
+brew install zsh > /dev/null
+sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
 
 echo ""
-echo "Installing Certbot"
-brew install certbot
+echo "Installing Certbot 🤖"
+brew install certbot > /dev/null
 
 echo ""
 echo "Installing MAS (Mac App Store CLI)"
-brew install mas
+brew install mas > /dev/null
 
 echo ""
 echo "Installing Xcode (via mas CLI, you may need to sign in)"
@@ -158,13 +165,13 @@ tput bel
 mas install 497799835
 
 echo ""
-echo "Installing Server (via mas CLI, you may need to sign in)"
+echo "Installing Server (via mas CLI, you may need to sign in) "
 tput bel
 mas install 883878097
 
 echo ""
 echo "Installing Vim"
-brew install vim --override-system-vi
+brew install vim --override-system-vi > /dev/null
 vim -c VundleUpdate -c quitall
 pushd ~/.vim/bundle/YouCompleteMe
 ./install.py --tern-completer
@@ -174,198 +181,194 @@ popd
 
 echo ""
 echo "Installing Homebrew Cask"
-brew tap caskroom/cask
+brew tap caskroom/cask > /dev/null
 
 echo ""
 echo "Installing Google Chrome"
-brew cask install google-chrome
+brew cask install google-chrome > /dev/null
 
 echo ""
 echo "Installing Firefox"
-brew cask install firefox
+brew cask install firefox > /dev/null
 
 echo ""
 echo "Installing Opera"
-brew cask install opera
+brew cask install opera > /dev/null
 
 echo ""
 echo "Installing Skype"
-brew cask install skype
+brew cask install skype > /dev/null
 
 echo ""
 echo "Installing VSCode"
-brew cask install visual-studio-code
+brew cask install visual-studio-code > /dev/null
 
 echo ""
-echo "Installing Atom"
-brew cask install atom
+echo "Installing Atom ${green}⚛${reset}"
+brew cask install atom > /dev/null
 
 echo ""
 echo "Installing Sublime Text"
-brew cask install sublime-text
+brew cask install sublime-text > /dev/null
 
 echo ""
 echo "Installing Dash"
-brew cask install dash
+brew cask install dash > /dev/null
 
 echo ""
-echo "Installing iTerm 2"
-brew cask install iterm2
+echo "Installing iTerm 2 "
+brew cask install iterm2 > /dev/null
 
 echo ""
 echo "Installing Postico"
-brew cask install postico
+brew cask install postico > /dev/null
 
 echo ""
-echo "Installing Postman"
-brew cask install postman
+echo "Installing Postman 📮"
+brew cask install postman > /dev/null
 
 echo ""
 echo "Installing Slack"
-brew cask install slack
+brew cask install slack > /dev/null
 
 echo ""
 echo "Installing Caprine"
-brew cask install caprine
+brew cask install caprine > /dev/null
 
 echo ""
 echo "Installing Github Desktop"
-brew cask install github-desktop
+brew cask install github-desktop > /dev/null
 
 echo ""
-echo "Installing Cyberduck"
-brew cask install cyberduck
+echo "Installing Cyberduck 🦆"
+brew cask install cyberduck > /dev/null
 
 echo ""
 echo "Installing MongoHub"
-brew cask install jeromelebel-mongohub
+brew cask install jeromelebel-mongohub > /dev/null
 
 echo ""
 echo "Installing SequalPro"
-brew cask install sequel-pro
+brew cask install sequel-pro > /dev/null
 
 echo ""
-echo "Installing gitup"
-brew cask install gitup
+echo "Installing GitUp"
+brew cask install gitup > /dev/null
 
 echo ""
 echo "Installing Android File Transfer"
-brew cask install android-file-transfer
+brew cask install android-file-transfer > /dev/null
 
 echo ""
 echo "Installing Android Studio"
-brew cask install android-studio
+brew cask install android-studio > /dev/null
 
 echo ""
 echo "Installing Android SDK"
-brew install android-sdk
+brew install android-sdk > /dev/null
 
 echo ""
 echo "Installing Docker"
-brew cask install docker
+brew cask install docker > /dev/null
 
 echo ""
 echo "Installing Kitematic (Docker)"
-brew cask install kitematic
+brew cask install kitematic > /dev/null
 
 echo ""
 echo "Installing Blender"
-brew cask install blender
+brew cask install blender > /dev/null
 
 echo ""
 echo "Installing Sketchup"
-brew cask install sketchup
+brew cask install sketchup > /dev/null
 
 echo ""
-echo "Installing Sketch"
-brew cask install sketch
+echo "Installing Sketch ✏️"
+brew cask install sketch > /dev/null
 
 echo ""
 echo "Installing Sketch Toolbox"
-brew cask install sketch-toolbox
+brew cask install sketch-toolbox > /dev/null
 
 echo ""
-echo "Installing VLC"
-brew cask install vlc
+echo "Installing VLC ▶️"
+brew cask install vlc > /dev/null
 
 echo ""
 echo "Installing BetterTouchTool"
-brew cask install bettertouchtool
+brew cask install bettertouchtool > /dev/null
 
 echo ""
 echo "Installing Insync"
-brew cask install insync
+brew cask install insync > /dev/null
 
 echo ""
-echo "Installing Audacity"
-brew cask install audacity
+echo "Installing Audacity 🎹"
+brew cask install audacity > /dev/null
 
 echo ""
 echo "Installing Arduino"
-brew cask install arduino
+brew cask install arduino > /dev/null
 
 echo ""
 echo "Installing The Unarchiver"
-brew cask install the-unarchiver
+brew cask install the-unarchiver > /dev/null
 
 echo ""
 echo "Installing Flux"
-brew cask install flux
+brew cask install flux > /dev/null
 
 echo ""
-echo "Installing Handbrake"
-brew cask install handbrake
+echo "Installing Handbrake 📼"
+brew cask install handbrake > /dev/null
 
 echo ""
 echo "Installing Unified Remote"
-brew cask install unified-remote
+brew cask install unified-remote > /dev/null
 
 echo ""
-echo "Installing SuperDuper!"
-brew cask install superduper
+echo "Installing SuperDuper! 💾"
+brew cask install superduper > /dev/null
 
 echo ""
 echo "Installing Übersicht"
-brew cask install ubersicht
+brew cask install ubersicht > /dev/null
 
 echo ""
 echo "Installing Transmission"
-brew cask install transmission
+brew cask install transmission > /dev/null
 
 echo ""
 echo "Installing Xbench"
-brew cask install xbench
+brew cask install xbench > /dev/null
 
 echo ""
-echo "Installing Spotify"
-brew cask install spotify
+echo "Installing Spotify 🎵"
+brew cask install spotify > /dev/null
 
 echo ""
-echo "Installing QuickLook extensions"
-brew cask install qlcolorcode
-brew cask install betterzipql
-brew cask install qlmarkdown
-brew cask install qlstephen
-brew cask install qlvideo
+echo "Installing QuickLook extensions 👁‍🗨"
+brew cask install qlcolorcode > /dev/null
+brew cask install betterzipql > /dev/null
+brew cask install qlmarkdown > /dev/null
+brew cask install qlstephen > /dev/null
+brew cask install qlvideo > /dev/null
 
 echo ""
-echo "Installing fonts"
-brew tap caskroom/fonts
-brew cask install font-fira-code
-brew cask install font-roboto
-brew cask install font-roboto-mono-for-powerline
+echo "Installing 𝑓o𝑛𝑡𝑠"
+brew tap caskroom/fonts > /dev/null
+brew cask install font-fira-code > /dev/null
+brew cask install font-roboto > /dev/null
+brew cask install font-roboto-mono-for-powerline > /dev/null
 
 ###############################################################################
 # General UI/UX
 ###############################################################################
 
-echo ""
-cecho "Would you like to set your computer name (as done via System Preferences >> Sharing)? (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  echo "What would you like it to be?"
-  read COMPUTER_NAME
+if [[ ! -z "$COMPUTER_NAME" ]]; then
+  echo ""
+  echo "Setting your computer name to $COMPUTER_NAME"
   sudo scutil --set ComputerName $COMPUTER_NAME
   sudo scutil --set HostName $COMPUTER_NAME
   sudo scutil --set LocalHostName $COMPUTER_NAME
@@ -373,47 +376,43 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 fi
 
 echo ""
-cecho "Change indexing order and disable some search results in Spotlight? (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  # Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
-  #   MENU_DEFINITION
-  #   MENU_CONVERSION
-  #   MENU_EXPRESSION
-  #   MENU_SPOTLIGHT_SUGGESTIONS (send search queries to Apple)
-  #   MENU_WEBSEARCH             (send search queries to Apple)
-  #   MENU_OTHER
-  defaults write com.apple.spotlight orderedItems -array \
-    '{"enabled" = 1;"name" = "APPLICATIONS";}' \
-    '{"enabled" = 1;"name" = "SYSTEM_PREFS";}' \
-    '{"enabled" = 1;"name" = "DIRECTORIES";}' \
-    '{"enabled" = 1;"name" = "PDF";}' \
-    '{"enabled" = 1;"name" = "FONTS";}' \
-    '{"enabled" = 1;"name" = "DOCUMENTS";}' \
-    '{"enabled" = 1;"name" = "MESSAGES";}' \
-    '{"enabled" = 1;"name" = "CONTACT";}' \
-    '{"enabled" = 1;"name" = "EVENT_TODO";}' \
-    '{"enabled" = 1;"name" = "IMAGES";}' \
-    '{"enabled" = 1;"name" = "BOOKMARKS";}' \
-    '{"enabled" = 1;"name" = "MUSIC";}' \
-    '{"enabled" = 1;"name" = "MOVIES";}' \
-    '{"enabled" = 1;"name" = "PRESENTATIONS";}' \
-    '{"enabled" = 1;"name" = "SPREADSHEETS";}' \
-    '{"enabled" = 1;"name" = "SOURCE";}' \
-    '{"enabled" = 1;"name" = "MENU_DEFINITION";}' \
-    '{"enabled" = 1;"name" = "MENU_OTHER";}' \
-    '{"enabled" = 1;"name" = "MENU_CONVERSION";}' \
-    '{"enabled" = 1;"name" = "MENU_EXPRESSION";}' \
-    '{"enabled" = 1;"name" = "MENU_WEBSEARCH";}' \
-    '{"enabled" = 1;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
-  # Load new settings before rebuilding the index
-  killall mds > /dev/null 2>&1
-  # Make sure indexing is enabled for the main volume
-  sudo mdutil -i on / > /dev/null
-  # Rebuild the index from scratch
-  sudo mdutil -E / > /dev/null
-fi
+echo "Change indexing order and disable some search results in Spotlight"
+# Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
+#   MENU_DEFINITION
+#   MENU_CONVERSION
+#   MENU_EXPRESSION
+#   MENU_SPOTLIGHT_SUGGESTIONS (send search queries to Apple)
+#   MENU_WEBSEARCH             (send search queries to Apple)
+#   MENU_OTHER
+defaults write com.apple.spotlight orderedItems -array \
+  '{"enabled" = 1;"name" = "APPLICATIONS";}' \
+  '{"enabled" = 1;"name" = "SYSTEM_PREFS";}' \
+  '{"enabled" = 1;"name" = "DIRECTORIES";}' \
+  '{"enabled" = 1;"name" = "PDF";}' \
+  '{"enabled" = 1;"name" = "FONTS";}' \
+  '{"enabled" = 1;"name" = "DOCUMENTS";}' \
+  '{"enabled" = 1;"name" = "MESSAGES";}' \
+  '{"enabled" = 1;"name" = "CONTACT";}' \
+  '{"enabled" = 1;"name" = "EVENT_TODO";}' \
+  '{"enabled" = 1;"name" = "IMAGES";}' \
+  '{"enabled" = 1;"name" = "BOOKMARKS";}' \
+  '{"enabled" = 1;"name" = "MUSIC";}' \
+  '{"enabled" = 1;"name" = "MOVIES";}' \
+  '{"enabled" = 1;"name" = "PRESENTATIONS";}' \
+  '{"enabled" = 1;"name" = "SPREADSHEETS";}' \
+  '{"enabled" = 1;"name" = "SOURCE";}' \
+  '{"enabled" = 1;"name" = "MENU_DEFINITION";}' \
+  '{"enabled" = 1;"name" = "MENU_OTHER";}' \
+  '{"enabled" = 1;"name" = "MENU_CONVERSION";}' \
+  '{"enabled" = 1;"name" = "MENU_EXPRESSION";}' \
+  '{"enabled" = 1;"name" = "MENU_WEBSEARCH";}' \
+  '{"enabled" = 1;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
+# Load new settings before rebuilding the index
+killall mds > /dev/null 2>&1
+# Make sure indexing is enabled for the main volume
+sudo mdutil -i on / > /dev/null
+# Rebuild the index from scratch
+sudo mdutil -E / > /dev/null
 
 echo ""
 echo "Enable the sound effects on boot"
@@ -442,10 +441,8 @@ echo "Reveal IP address, hostname, OS version, etc. when clicking the clock in t
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 echo ""
-cecho "Check for software updates daily, not just once per week? (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+cecho "Check for software updates daily, not just once per week" $yellow
+if ! $HACKINTOSH; then
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 fi
 
@@ -461,18 +458,6 @@ sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableTheme
 echo ""
 echo "Disable Photos.app from starting everytime a device is plugged in"
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
-
-###############################################################################
-# General Power and Performance modifications
-###############################################################################
-
-echo ""
-cecho "Disable hibernation? (speeds up entering sleep mode) (y/n)" $yellow
-tput bel
-read -r response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
-  sudo pmset -a hibernatemode 0
-fi
 
 ################################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
@@ -592,7 +577,8 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Dock & Mission Control
 ###############################################################################
 
-echo "Wipe all (default) app icons from the Dock and add a different set? (y/n)" $yellow
+echo ""
+cecho "Wipe all (default) app icons from the Dock and add a different set? (y/n)" $yellow
 tput bel
 read -r response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
@@ -793,9 +779,9 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.dock "expose-group-by-app" -bool false
 
 echo ""
-echo "Remove the auto-hiding delay from Dock"
-defaults write com.apple.dock autohide-delay -float 0
-defaults write com.apple.dock autohide-time-modifier -float 0
+echo "Reduce the auto-hiding delay in Dock"
+defaults write com.apple.dock autohide-delay -float 0.1
+defaults write com.apple.dock autohide-time-modifier -float 0.4
 
 echo ""
 echo "Minimize windows into their application’s icon"
@@ -956,14 +942,13 @@ echo ""
 cecho "Done!" $cyan
 echo ""
 echo ""
-cecho "################################################################################" $white
+cecho "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" $white
 echo ""
 echo ""
-cecho "Note that some of these changes require a logout/restart to take effect." $red
+cecho "Killing some open applications in order to take effect." $red
 cecho "Press enter when you are ready" $yellow
 tput bel
 read
-cecho "Killing some open applications in order to take effect." $red
 echo ""
 
 find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
@@ -972,3 +957,5 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   "Terminal" "Transmission"; do
   killall "${app}" > /dev/null 2>&1
 done
+
+cecho "Note that some of these changes require a logout/restart to take effect." $red
