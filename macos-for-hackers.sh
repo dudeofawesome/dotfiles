@@ -1,34 +1,7 @@
 #!/bin/sh
 
-###
-# SOME COMMANDS WILL NOT WORK ON macOS (Sierra or newer)
-# For Sierra or newer, see https://github.com/mathiasbynens/dotfiles/blob/master/.macos
-###
-
-# Alot of these configs have been taken from the various places
-# on the web, most from here
-# https://github.com/mathiasbynens/dotfiles/blob/5b3c8418ed42d93af2e647dc9d122f25cc034871/.osx
-
-# Set the colours you can use
-black='\033[0;30m'
-white='\033[0;37m'
-red='\033[0;31m'
-green='\033[0;32m'
-yellow='\033[0;33m'
-blue='\033[0;34m'
-magenta='\033[0;35m'
-cyan='\033[0;36m'
-
-# Resets the style
-reset=`tput sgr0`
-
-# Color-echo. Improved. [Thanks @joaocunha]
-# arg $1 = message
-# arg $2 = Color
-cecho() {
-  echo "${2}${1}${reset}"
-  return
-}
+# Include some basic libs
+source libs.sh
 
 # Set continue to false by default
 CONTINUE=false
@@ -45,7 +18,7 @@ echo ""
 
 
 echo ""
-cecho "Have you read through the script you're about to run and " $red
+cecho "Have you read through the script you're about to run and " $yellow
 cecho "understood that it will make changes to your computer? (y/n)" $yellow
 tput bel
 read -r response
@@ -55,7 +28,7 @@ fi
 
 if ! $CONTINUE; then
   # Check if we're continuing and output a message if not
-  cecho "Please go read the script, it only takes a few minutes" $red
+  cecho "Please go read the script, it only takes a few minutes" $green
   exit
 fi
 
@@ -116,8 +89,8 @@ echo "Install Foreman"
 gem install foreman
 
 echo ""
-echo "Install Foreman"
-gem install foreman
+echo "Install Travis CLI"
+gem install travis
 
 echo ""
 echo "Install Ionic"
@@ -151,7 +124,7 @@ gem install scss_lint
 echo ""
 echo "Installing Fish Shell and setting it as the default shell"
 brew install fish
-echo "/usr/local/bin/fish" >> /etc/shells
+sudo echo "/usr/local/bin/fish" >> /etc/shells
 chsh -s echo /usr/local/bin/fish
 
 echo ""
@@ -165,11 +138,25 @@ fish -c "omf install agnoster"
 echo ""
 echo "Installing ZSH"
 brew install zsh
-echo "/usr/local/bin/zsh" >> /etc/shells
+sudo echo "/usr/local/bin/zsh" >> /etc/shells
 
 echo ""
 echo "Installing Certbot"
 brew install certbot
+
+echo ""
+echo "Installing MAS (Mac App Store CLI)"
+brew install mas
+
+echo ""
+echo "Installing Xcode (via mas CLI, you may need to sign in)"
+tput bel
+mas install 497799835
+
+echo ""
+echo "Installing Server (via mas CLI, you may need to sign in)"
+tput bel
+mas install 883878097
 
 echo ""
 echo "Installing Vim"
