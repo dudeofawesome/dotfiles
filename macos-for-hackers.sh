@@ -778,6 +778,18 @@ echo "Speeding up Mission Control animations and grouping windows by application
 defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.dock "expose-group-by-app" -bool false
 
+if $SINGLE_SCREEN; then
+  echo ""
+  echo "Turn Dock hiding on"
+  defaults write com.apple.Dock autohide -int 1
+
+  if ! $DESKTOP; then
+    echo ""
+    echo "Posititioning Dock on left of screen"
+    defaults write com.apple.Dock orientation left
+  fi
+fi
+
 echo ""
 echo "Reduce the auto-hiding delay in Dock"
 defaults write com.apple.dock autohide-delay -float 0.1

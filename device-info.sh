@@ -4,6 +4,7 @@ source libs.sh
 
 HACKINTOSH=false
 DESKTOP=true
+SINGLE_SCREEN=true
 UNLIMITED_DISK=false
 
 echo ""
@@ -20,6 +21,15 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
   DESKTOP=true
 else
   DESKTOP=false
+fi
+
+echo ""
+cecho "Is this computer used primarily with a single screen? (y/n)" $yellow
+read -r response
+if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+  SINGLE_SCREEN=true
+else
+  SINGLE_SCREEN=false
 fi
 
 echo ""
