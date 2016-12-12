@@ -419,8 +419,8 @@ echo "Enable the sound effects on boot"
 sudo nvram BootAudio=%01
 
 echo ""
-echo "Increase window resize speed for Cocoa applications"
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+echo "Enable feedback sound when volume is changed"
+defaults write ~/Library/Preferences/.GlobalPreferences.plist com.apple.sound.beep.feedback -int 1
 
 echo ""
 echo "Expanding the save panel by default"
