@@ -180,6 +180,10 @@ make
 popd
 
 echo ""
+echo "Installing Postgres"
+brew install postgres > /dev/null
+
+echo ""
 echo "Installing Homebrew Cask"
 brew tap caskroom/cask > /dev/null
 
