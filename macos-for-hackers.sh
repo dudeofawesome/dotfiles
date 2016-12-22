@@ -867,6 +867,16 @@ defaults write com.apple.dock wvous-tl-corner -int 4
 defaults write com.apple.dock wvous-tl-modifier -int 0
 
 ###############################################################################
+# Sharing
+###############################################################################
+
+echo ""
+echo "Remote Login (SSH)"
+systemsetup -setremotelogin on
+dseditgroup -o create -q com.apple.access_ssh
+dseditgroup -o edit -a admin -t group com.apple.access_ssh
+
+###############################################################################
 # Chrome, Safari, & WebKit
 ###############################################################################
 
