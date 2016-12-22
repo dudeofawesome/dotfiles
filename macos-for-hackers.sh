@@ -492,6 +492,10 @@ echo ""
 echo "Show battery percent"
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
+echo ""
+echo "Add Dvorak to input sources"
+defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add '<dict><key>InputSourceKind</key><string>Keyboard Layout</string><key>KeyboardLayout ID</key><integer>16300</integer><key>KeyboardLayout Name</key><string>Dvorak</string></dict>'
+
 ################################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
 ###############################################################################
