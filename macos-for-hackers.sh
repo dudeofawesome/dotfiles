@@ -20,7 +20,6 @@ cecho "│                                             │" $red
 cecho "└─────────────────────────────────────────────┘" $red
 echo ""
 
-
 echo ""
 cecho "Have you read through the script you're about to run and " $yellow
 cecho "understood that it will make changes to your computer? (y/n)" $yellow
@@ -419,7 +418,7 @@ sudo mdutil -i on / > /dev/null
 sudo mdutil -E / > /dev/null
 
 echo ""
-echo "Enable the sound effects on boot"
+echo "Enable the sound effect on boot"
 sudo nvram BootAudio=%01
 
 echo ""
@@ -462,6 +461,10 @@ sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableTheme
 echo ""
 echo "Disable Photos.app from starting everytime a device is plugged in"
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+echo ""
+echo "Setting menu bar clock format to MM/dd H:mm:ss"
+defaults write com.apple.menuextra.clock DateFormat -string 'MM/dd H:mm:ss'
 
 ################################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
@@ -771,7 +774,6 @@ EOM
 EOM
 )"
 fi
-
 
 echo ""
 echo "Setting the icon size of Dock items to 36 pixels for optimal size/screen-realestate"
