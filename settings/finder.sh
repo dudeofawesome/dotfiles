@@ -73,8 +73,8 @@ echo "Enable AirDrop over Ethernet and on unsupported Macs running Lion"
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 echo ""
-echo "Misc. Finder Preferences"
-defaults write com.apple.finder SidebarWidth -int 149
+echo "Sidebar size"
+defaults write com.apple.finder SidebarWidth -int 156
 
 # echo ""
 # echo "Sidebar icons"
