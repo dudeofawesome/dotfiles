@@ -75,3 +75,7 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 echo ""
 echo "Misc. Finder Preferences"
 defaults write com.apple.finder SidebarWidth -int 149
+
+# echo ""
+# echo "Sidebar icons"
+# defaults write com.apple.??? "$(cat files/sidebar-icons.plist)"
