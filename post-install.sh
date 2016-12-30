@@ -64,6 +64,7 @@ source settings/terminal.sh
 source settings/time-machine.sh
 source settings/transmission.sh
 source settings/git.sh
+source services/install.sh
 
 # Kill affected applications
 echo ""
