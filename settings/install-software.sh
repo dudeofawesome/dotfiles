@@ -115,6 +115,8 @@ mas install 883878097
 echo ""
 echo "Installing Vim"
 brew install vim --override-system-vi > /dev/null
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+tput bel
 vim -c VundleUpdate -c quitall
 pushd ~/.vim/bundle/YouCompleteMe
 ./install.py --tern-completer
