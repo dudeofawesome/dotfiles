@@ -7,6 +7,6 @@ echo "# Install custom Services"
 echo "###############################################################################"
 
 echo ""
-echo "GitUp @ Github Desktop"
+echo "Open GitUp @ Github Desktop project"
 tput bel
-open "GitUp @ Github Desktop.workflow"
+open "Open GitUp @ project.workflow"

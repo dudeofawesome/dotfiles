@@ -106,7 +106,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:431.000000</string>
+				<string>309.000000:429.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
