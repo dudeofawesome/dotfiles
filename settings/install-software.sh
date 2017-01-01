@@ -285,6 +285,10 @@ echo "Installing Übersicht"
 brew cask install ubersicht > /dev/null
 
 echo ""
+echo "Installing TunnelBlick"
+brew cask install tunnelblick > /dev/null
+
+echo ""
 echo "Installing Transmission"
 brew cask install transmission > /dev/null
 
