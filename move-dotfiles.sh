@@ -8,7 +8,7 @@ echo "##########################################################################
 
 echo ""
 echo "Copying dotfiles into place"
-cp -ar .config/ ~/
+cp -a .config/ ~/
 cp -a .editorconfig ~/
 cp -a .hyper.js ~/
 cp -a .vimrc ~/
