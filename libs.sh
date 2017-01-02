@@ -9,12 +9,12 @@ magenta='\033[0;35m'
 cyan='\033[0;36m'
 
 # Resets the style
-reset=`tput sgr0`
+reset=`\033[0m`
 
 # Color-echo. Improved. [Thanks @joaocunha]
 # arg $1 = message
 # arg $2 = Color
 cecho() {
-  echo "${2}${1}${reset}"
+  printf "${2}${1}${reset}"
   return
 }

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Include some basic libs
 source libs.sh
