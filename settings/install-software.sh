@@ -27,7 +27,7 @@ brew install libyaml > /dev/null
 brew install cmake > /dev/null
 
 echo ""
-echo "Install Node.JS ${green}⬢${reset}"
+printf "Install Node.JS ${green}⬢${reset}\n"
 brew install node > /dev/null
 sudo npm install -g n
 sudo n latest > /dev/null
@@ -161,7 +161,7 @@ echo "Installing VSCode"
 brew cask install visual-studio-code > /dev/null
 
 echo ""
-echo "Installing Atom ${green}⚛${reset}"
+printf "Installing Atom ${green}⚛${reset}\n"
 brew cask install atom > /dev/null
 
 echo ""
