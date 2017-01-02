@@ -9,7 +9,7 @@
 			<key>ASCII_Tables</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:00:28Z</date>
+				<date>2017-01-02T08:49:22Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +25,7 @@
 			<key>Atom</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:58Z</date>
+				<date>2017-01-02T08:49:21Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -41,7 +41,7 @@
 			<key>CSS_Device_Media_Queries</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:00:38Z</date>
+				<date>2017-01-02T08:49:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -57,7 +57,7 @@
 			<key>CSS_Named_Colors</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:00:38Z</date>
+				<date>2017-01-02T08:48:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -73,7 +73,7 @@
 			<key>Docker</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:02Z</date>
+				<date>2017-01-02T08:24:25Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -89,7 +89,7 @@
 			<key>Emoji</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:05Z</date>
+				<date>2017-01-02T08:24:24Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -105,7 +105,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:11Z</date>
+				<date>2017-01-02T08:24:29Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -126,7 +126,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:12Z</date>
+				<date>2017-01-02T08:49:25Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -144,10 +144,45 @@
 					<string>Git_Flow</string>
 				</dict>
 			</dict>
+			<key>Gitmoji</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:24:32Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>github</string>
+						<string>emoji</string>
+					</array>
+					<key>name</key>
+					<string>Gitmoji</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Gitmoji</string>
+				</dict>
+			</dict>
+			<key>HTTP_Status_Codes</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:24:40Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>HTTP Status Codes</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>HTTP_Status_Codes</string>
+				</dict>
+			</dict>
 			<key>LaTeX_Math_Symbols</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:00:58Z</date>
+				<date>2017-01-02T08:49:27Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -160,10 +195,26 @@
 					<string>LaTeX_Math_Symbols</string>
 				</dict>
 			</dict>
+			<key>Licenses</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:24:46Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Licenses</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Licenses</string>
+				</dict>
+			</dict>
 			<key>Mac_Startup_Keys</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:28Z</date>
+				<date>2017-01-02T08:24:49Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -182,7 +233,7 @@
 			<key>PostgreSQL_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:38Z</date>
+				<date>2017-01-02T08:49:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -198,7 +249,7 @@
 			<key>Regular_Expressions</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:46Z</date>
+				<date>2017-01-02T08:49:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -217,7 +268,7 @@
 			<key>Sketch</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:51Z</date>
+				<date>2017-01-02T08:49:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -235,7 +286,7 @@
 			<key>Swift</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:56Z</date>
+				<date>2017-01-02T08:49:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -265,7 +316,7 @@
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:01:37Z</date>
+				<date>2017-01-02T08:49:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -283,7 +334,7 @@
 			<key>Vim</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-17T21:36:18Z</date>
+				<date>2017-01-02T08:25:13Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -299,7 +350,7 @@
 			<key>Visual_Studio_Code</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:55:01Z</date>
+				<date>2017-01-02T08:49:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -315,7 +366,7 @@
 			<key>Xcode_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-17T21:36:19Z</date>
+				<date>2017-01-02T08:49:24Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -344,7 +395,7 @@
 			<key>YAML</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:01:40Z</date>
+				<date>2017-01-02T08:25:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -360,7 +411,7 @@
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:21Z</date>
+				<date>2017-01-02T08:49:25Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -381,7 +432,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:32Z</date>
+				<date>2017-01-02T08:24:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -401,7 +452,7 @@
 			<key>screen</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:54:53Z</date>
+				<date>2017-01-02T08:25:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -522,7 +573,7 @@
 			<key>Bluebird</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-05T21:53:21Z</date>
+				<date>2017-01-02T08:27:21Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -541,10 +592,30 @@
 					<string>Bluebird</string>
 				</dict>
 			</dict>
+			<key>FFmpeg</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:27:21Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/FFmpeg#readme</string>
+					<key>authorLinkText</key>
+					<string>Steve Yin</string>
+					<key>name</key>
+					<string>FFmpeg</string>
+					<key>platform</key>
+					<string>usercontribFFmpeg</string>
+					<key>uniqueIdentifier</key>
+					<string>FFmpeg</string>
+				</dict>
+			</dict>
 			<key>Google_Maps</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-21T21:02:14Z</date>
+				<date>2017-01-02T08:49:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -561,10 +632,35 @@
 					<string>Google_Maps</string>
 				</dict>
 			</dict>
+			<key>IonIcons</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:26:47Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Ion Icons</string>
+						<string>Android Icons</string>
+						<string>iPhone Icons</string>
+						<string>iOS Icons</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/IonIcons#readme</string>
+					<key>authorLinkText</key>
+					<string>Danang Widiantoro</string>
+					<key>name</key>
+					<string>IonIcons</string>
+					<key>platform</key>
+					<string>usercontribIonIcons</string>
+					<key>uniqueIdentifier</key>
+					<string>IonIcons</string>
+				</dict>
+			</dict>
 			<key>JSDoc</key>
 			<dict>
 				<key>date</key>
-				<date>2016-11-08T20:29:36Z</date>
+				<date>2017-01-02T08:26:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -592,7 +688,7 @@
 			<key>Loopback</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:56:28Z</date>
+				<date>2017-01-02T08:25:35Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -617,7 +713,7 @@
 			<key>NativeScript</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:56:41Z</date>
+				<date>2017-01-02T08:49:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -641,7 +737,7 @@
 			<key>electron</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-24T21:02:01Z</date>
+				<date>2017-01-02T08:49:33Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -663,7 +759,7 @@
 			<key>fish</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-05T21:53:54Z</date>
+				<date>2017-01-02T08:26:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -685,7 +781,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-05T21:54:40Z</date>
+				<date>2017-01-02T08:49:34Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -725,220 +821,230 @@
 			<key>http://kapeli.com/feeds/AWS_JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-05T08:26:32Z</date>
+				<date>2017-01-02T08:21:51Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Android.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-05T08:27:31Z</date>
+				<date>2017-01-02T08:25:41Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/AngularJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:04Z</date>
+				<date>2017-01-02T08:49:25Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/AngularTS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-26T06:10:10Z</date>
+				<date>2017-01-02T08:21:42Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/AppleScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:30Z</date>
+				<date>2017-01-02T08:26:14Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:40Z</date>
+				<date>2017-01-02T08:22:32Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Arduino.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:22Z</date>
+				<date>2017-01-02T08:23:25Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:26Z</date>
+				<date>2017-01-02T08:25:43Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/C++.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-28T22:32:01Z</date>
+				<date>2017-01-02T08:22:12Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/CSS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:52Z</date>
+				<date>2017-01-02T08:23:24Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Chai.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:24Z</date>
+				<date>2017-01-02T08:24:08Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Cordova.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:30Z</date>
+				<date>2017-01-02T08:24:46Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/D3JS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:36Z</date>
+				<date>2017-01-02T08:23:58Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Docker.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:50Z</date>
+				<date>2017-01-02T08:25:08Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Express.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:01Z</date>
+				<date>2017-01-02T08:23:32Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Font_Awesome.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-28T22:32:16Z</date>
+				<date>2017-01-02T08:49:44Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Grunt.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:22:54Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Gulp.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:57Z</date>
+				<date>2017-01-02T08:23:27Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/HTML.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:18Z</date>
+				<date>2017-01-02T08:26:03Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Handlebars.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:51:55Z</date>
+				<date>2017-01-02T08:23:40Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Ionic.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:21Z</date>
+				<date>2017-01-02T08:25:39Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Jade.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:58Z</date>
+				<date>2017-01-02T08:49:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Jasmine.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:22Z</date>
+				<date>2017-01-02T08:23:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:49Z</date>
+				<date>2017-01-02T08:26:36Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Java_SE8.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:50Z</date>
+				<date>2017-01-02T08:26:47Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:24Z</date>
+				<date>2017-01-02T08:49:46Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:52Z</date>
+				<date>2017-01-02T08:49:46Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Man_Pages.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:51Z</date>
+				<date>2017-01-02T08:49:45Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:52Z</date>
+				<date>2017-01-02T08:49:45Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Mocha.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:42Z</date>
+				<date>2017-01-02T08:23:26Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/MomentJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-01-02T08:23:34Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MongoDB.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:07Z</date>
+				<date>2017-01-02T08:24:05Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MySQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:31Z</date>
+				<date>2017-01-02T08:49:49Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Nginx.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:54Z</date>
+				<date>2017-01-02T08:25:49Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:52:51Z</date>
+				<date>2017-01-02T08:23:36Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:13Z</date>
+				<date>2017-01-02T08:26:13Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-28T22:33:04Z</date>
+				<date>2017-01-02T08:49:50Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/SVG.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:41Z</date>
+				<date>2017-01-02T08:26:46Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/SailsJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-10-26T06:11:36Z</date>
+				<date>2017-01-02T08:49:47Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Sass.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:09Z</date>
+				<date>2017-01-02T08:23:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Swift.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:34Z</date>
+				<date>2017-01-02T08:24:15Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:42Z</date>
+				<date>2017-01-02T08:24:05Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Vim.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:43Z</date>
+				<date>2017-01-02T08:24:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-18T08:53:25Z</date>
+				<date>2017-01-02T08:49:45Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
-			<key>http://kapeli.com/feeds/Grunt.xml</key>
+			<key>http://kapeli.com/feeds/Jekyll.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-12T11:46:53Z</date>
+				<date>2017-01-02T08:25:44Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Mono.xml</key>
 			<dict>
@@ -971,23 +1077,6 @@
 			<key>searchSnippets</key>
 			<true/>
 		</dict>
-		<dict>
-			<key>docsets</key>
-			<array>
-				<string>~/Library/Application Support/Dash/DocSets/TypeScript/TypeScript.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/NodeJS/NodeJS.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Express/Express.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Mocha/Mocha.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Gulp/Gulp.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Lo-Dash/Lo-Dash.docset</string>
-				<string>~/Library/Application Support/Dash/User Contributed/Bluebird/bluebird.docset</string>
-			</array>
-			<key>name</key>
-			<string>TypeScript</string>
-			<key>searchSnippets</key>
-			<true/>
-		</dict>
 	</array>
 	<key>searchKey</key>
 	<dict>
@@ -1005,7 +1094,7 @@
 	<key>shouldSyncBookmarks</key>
 	<true/>
 	<key>shouldSyncDocsets</key>
-	<false/>
+	<true/>
 	<key>shouldSyncGeneral</key>
 	<true/>
 	<key>shouldSyncView</key>
