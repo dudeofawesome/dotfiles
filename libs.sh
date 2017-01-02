@@ -15,6 +15,6 @@ reset=`\033[0m`
 # arg $1 = message
 # arg $2 = Color
 cecho() {
-  printf "${2}${1}${reset}"
+  printf "${2}${1}${reset}\n"
   return
 }
