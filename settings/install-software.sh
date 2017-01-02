@@ -129,6 +129,14 @@ echo "Installing Postgres"
 brew install postgres > /dev/null
 
 echo ""
+echo "Installing FFMpeg"
+brew install ffmpeg > /dev/null
+
+echo ""
+echo "Installing Gifsicle"
+brew install gifsicle > /dev/null
+
+echo ""
 echo "Installing Homebrew Cask"
 brew tap caskroom/cask > /dev/null
 
