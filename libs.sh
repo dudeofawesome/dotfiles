@@ -9,7 +9,7 @@ magenta='\033[0;35m'
 cyan='\033[0;36m'
 
 # Resets the style
-reset=`\033[0m`
+reset='\033[0m'
 
 # Color-echo. Improved. [Thanks @joaocunha]
 # arg $1 = message
