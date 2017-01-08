@@ -28,6 +28,12 @@
 	<integer>1</integer>
 	<key>Coprocess MRU</key>
 	<array>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/ba5d704a-2d8c-4f9b-aec2-6581864996ac"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/6dea1dad-a083-403f-b03c-c784a42ba9e7"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/a0a67409-4d77-40ee-982a-8074189443b8"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/b4d559a9-0165-4aa3-a59f-b32904fa235c"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/eb93b796-a9f6-433d-a688-cef429ecb10c"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/10c7c1bf-bfba-4537-b0c3-50ea16d6cf30"'</string>
 		<string>backward-word</string>
 	</array>
 	<key>CopyLastNewline</key>
@@ -732,10 +738,12 @@
 			<string>iTermTouchBarIdentifierNextMark</string>
 		</array>
 	</dict>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>650 589 620 392 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>341 371 796 473 0 0 1920 1177 </string>
+	<string>974 592 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>410 169 710 972 0 0 1920 1177 </string>
+	<string>1083 205 710 972 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>247 132 710 974 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
@@ -1506,7 +1514,7 @@
 			<key>Thin Strokes</key>
 			<integer>2</integer>
 			<key>Transparency</key>
-			<real>0.21823917549742752</real>
+			<real>0.0</real>
 			<key>Triggers</key>
 			<array>
 				<dict>
@@ -1553,6 +1561,14 @@
 					<key>regex</key>
 					<string>Build failed</string>
 				</dict>
+				<dict>
+					<key>action</key>
+					<string>CoprocessTrigger</string>
+					<key>parameter</key>
+					<string>osascript -e 'tell application "Google Chrome" to open location "\0"'</string>
+					<key>regex</key>
+					<string>chrome-devtools:\/\/devtools\/remote\/serve_file\/@.*\/inspector.html(?:.*)?\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}</string>
+				</dict>
 			</array>
 			<key>Unicode Version</key>
 			<integer>9</integer>
@@ -1589,7 +1605,9 @@
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>505028170.58861297</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -1651,11 +1669,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml?shard=74</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=74</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-02T05:52:33Z</date>
+	<date>2017-01-07T06:15:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1663,7 +1681,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1711,7 +1729,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.20170101-nightly</string>
+	<string>3.0.13</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
