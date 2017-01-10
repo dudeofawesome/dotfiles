@@ -20,6 +20,7 @@ brew install coreutils > /dev/null
 echo ""
 echo "Install some utilities (this could take a while)"
 brew install git > /dev/null
+brew install hub > /dev/null
 brew install wget > /dev/null
 brew install nmap > /dev/null
 brew install imagemagick --with-webp > /dev/null
@@ -68,6 +69,7 @@ echo "Install a few other utils"
 sudo npm install -g http-server -s > /dev/null
 sudo npm install -g sass-lint -s > /dev/null
 sudo npm install -g jscs jshint -s > /dev/null
+sudo npm install -g copy-github-labels-cli -s > /dev/null
 sudo gem install scss_lint > /dev/null
 
 echo ""
