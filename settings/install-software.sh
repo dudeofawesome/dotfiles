@@ -83,7 +83,6 @@ chmod +x install-fish
 ./install-fish -y --noninteractive
 fish -c "omf install osx"
 fish -c "omf install node-binpath"
-fish -c "omf install @dudeofawesome/fish-plugin-npm"
 fish -c "omf install agnoster"
 cd ~
 
