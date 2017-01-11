@@ -49,10 +49,6 @@ sudo npm install -g ionic -s > /dev/null
 sudo npm install -g ios-sim -s > /dev/null
 
 echo ""
-echo "Install Yarn 🐈"
-sudo npm install -g yarn -s > /dev/null
-
-echo ""
 echo "Install Typescript"
 sudo npm install -g typescript tslint ts-node -s > /dev/null
 
@@ -103,6 +99,10 @@ brew install certbot > /dev/null
 echo ""
 echo "Installing MAS (Mac App Store CLI)"
 brew install mas > /dev/null
+
+echo ""
+echo "Install Yarn 🐈"
+brew install yarn > /dev/null
 
 echo ""
 echo "Installing Xcode (via mas CLI, you may need to sign in)"
