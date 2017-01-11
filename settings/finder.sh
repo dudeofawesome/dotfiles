@@ -45,6 +45,14 @@ defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
 
 echo ""
+echo "Set Github folder icon"
+pushd ~/Downloads
+git clone https://github.com/gregoryzuckerman/githubicons.git
+cd githubicons
+./setfileicon icns/icon.icns ~/Github
+popd
+
+echo ""
 echo "Show tab view for new Finder windows"
 defaults write com.apple.finder ShowTabView -bool true
 
