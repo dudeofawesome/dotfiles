@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../libs.sh
+source "../libs.sh"
 
 echo "###############################################################################"
 echo "# Homebrew / Casks / Gems / Node Modules"

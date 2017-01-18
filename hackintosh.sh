@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Include some basic libs
-source libs.sh
+source "libs.sh"
 
 # Set continue to false by default
 CONTINUE=false

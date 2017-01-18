@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../libs.sh
+source "../libs.sh"
 
 echo "###############################################################################"
 echo "# Chrome, Safari, & WebKit"

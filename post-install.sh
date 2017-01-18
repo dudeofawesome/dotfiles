@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Include some basic libs
-source libs.sh
+source "libs.sh"
 
 # Set continue to false by default
 CONTINUE=false
@@ -48,23 +48,23 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Run all the commands
-source move-dotfiles.sh
-source settings/install-software.sh
-source settings/ui-ux.sh
-source settings/audio.sh
-source settings/keyboard-mouse.sh
-source settings/screen.sh
-source settings/finder.sh
-source settings/dock.sh
-source settings/mission-control.sh
-source settings/sharing.sh
-source settings/browsers.sh
-source settings/mail.sh
-source settings/terminal.sh
-source settings/time-machine.sh
-source settings/transmission.sh
-source settings/git.sh
-source services/install.sh
+source "move-dotfiles.sh"
+source "settings/install-software.sh"
+source "settings/ui-ux.sh"
+source "settings/audio.sh"
+source "settings/keyboard-mouse.sh"
+source "settings/screen.sh"
+source "settings/finder.sh"
+source "settings/dock.sh"
+source "settings/mission-control.sh"
+source "settings/sharing.sh"
+source "settings/browsers.sh"
+source "settings/mail.sh"
+source "settings/terminal.sh"
+source "settings/time-machine.sh"
+source "settings/transmission.sh"
+source "settings/git.sh"
+source "services/install.sh"
 
 # Kill affected applications
 echo ""
