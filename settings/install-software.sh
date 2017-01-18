@@ -35,6 +35,10 @@ sudo n latest > /dev/null
 sudo n lts > /dev/null
 
 echo ""
+echo "Install Yarn 🐈"
+brew install yarn > /dev/null
+
+echo ""
 echo "Install Foreman"
 sudo gem install foreman > /dev/null
 
@@ -100,18 +104,19 @@ echo "Installing MAS (Mac App Store CLI)"
 brew install mas > /dev/null
 
 echo ""
-echo "Install Yarn 🐈"
-brew install yarn > /dev/null
-
-echo ""
 echo "Installing Xcode (via mas CLI, you may need to sign in)"
 tput bel
 mas install 497799835
 
 echo ""
-echo "Installing Server (via mas CLI, you may need to sign in) "
+echo "Installing Server (via mas CLI, you may need to sign in) 🌎"
 tput bel
 mas install 883878097
+
+echo ""
+echo "Installing Boxy (via mas CLI, you may need to sign in) 📬"
+tput bel
+mas install 1053031090
 
 echo ""
 echo "Installing Vim"
