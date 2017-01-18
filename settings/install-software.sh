@@ -131,7 +131,7 @@ make
 popd
 
 echo ""
-echo "Installing Postgres"
+echo "Installing Postgres 🐘"
 brew install postgres > /dev/null
 
 echo ""
@@ -143,7 +143,7 @@ echo "Installing Gifsicle"
 brew install gifsicle > /dev/null
 
 echo ""
-echo "Installing Homebrew Cask"
+echo "Installing Homebrew Cask 🍺"
 brew tap caskroom/cask > /dev/null
 
 echo ""
@@ -179,11 +179,11 @@ echo "Installing Dash"
 brew cask install dash > /dev/null
 
 echo ""
-echo "Installing iTerm 2 "
+echo "Installing iTerm 2"
 brew cask install iterm2 > /dev/null
 
 echo ""
-echo "Installing Postico"
+echo "Installing Postico 🐘"
 brew cask install postico > /dev/null
 
 echo ""
@@ -231,11 +231,11 @@ echo "Installing Android SDK"
 brew install android-sdk > /dev/null
 
 echo ""
-echo "Installing Docker"
+echo "Installing Docker 🐳"
 brew cask install docker > /dev/null
 
 echo ""
-echo "Installing Kitematic (Docker)"
+echo "Installing Kitematic (Docker) 🐳"
 brew cask install kitematic > /dev/null
 
 echo ""
@@ -283,7 +283,7 @@ echo "Installing The Unarchiver"
 brew cask install the-unarchiver > /dev/null
 
 echo ""
-echo "Installing Flux"
+echo "Installing Flux ☀️"
 brew cask install flux > /dev/null
 
 echo ""
