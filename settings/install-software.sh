@@ -234,6 +234,10 @@ echo "Installing Kitematic (Docker)"
 brew cask install kitematic > /dev/null
 
 echo ""
+echo "Installing Private Internet Access"
+brew cask install private-internet-access > /dev/null
+
+echo ""
 echo "Installing Blender"
 brew cask install blender > /dev/null
 
