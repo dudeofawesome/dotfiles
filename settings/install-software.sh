@@ -241,6 +241,7 @@ brew cask install kitematic > /dev/null
 echo ""
 echo "Installing Private Internet Access"
 brew cask install private-internet-access > /dev/null
+sudo /usr/local/Caskroom/private-internet-access/latest/Private Internet Access Installer.app/Contents/MacOS/runner.sh
 
 echo ""
 echo "Installing Blender"
