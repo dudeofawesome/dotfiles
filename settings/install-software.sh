@@ -20,6 +20,7 @@ brew install coreutils > /dev/null
 echo ""
 echo "Install some utilities (this could take a while)"
 brew install git > /dev/null
+brew install git-flow > /dev/null
 brew install hub > /dev/null
 brew install wget > /dev/null
 brew install nmap > /dev/null
