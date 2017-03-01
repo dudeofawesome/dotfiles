@@ -7,7 +7,7 @@ module.exports = {
     fontFamily: 'Fira Code, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.8)',
+    cursorColor: 'rgba(255,204,0,0.8)',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BEAM',
@@ -16,10 +16,13 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: 'rgba(38, 50, 56, 1)',
+    backgroundColor: 'rgba(38, 50, 56, 0.8)',
 
     // border color (window, tabs)
     borderColor: '#333',
+
+    // terminal padding
+    padding: '5px',
 
     // custom css to embed in the main window
     css: '',
@@ -29,6 +32,8 @@ module.exports = {
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '0px 0px',
+
+    showHamburgerMenu: true,
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -81,7 +86,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: ["hyper-blink", "hyperterm-material"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
