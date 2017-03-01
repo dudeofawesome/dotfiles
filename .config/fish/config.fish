@@ -11,6 +11,7 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 
 set -x ANDROID_HOME "/Users/(whoami)/Library/Android/sdk"
 
+set PATH $PATH ~/Library/Android/sdk/tools ~/Library/Android/sdk/platform-tools
 
 set -x EDITOR /usr/local/bin/vim
 
