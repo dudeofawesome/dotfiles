@@ -74,7 +74,3 @@ set laststatus=2
 
 let g:netrw_liststyle = 3
 
-if (strlen(@%))
-    startinsert
-endif
-
