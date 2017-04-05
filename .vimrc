@@ -13,6 +13,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'bling/vim-airline'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rizzatti/dash.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
