@@ -12,9 +12,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'bling/vim-airline'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Keymaps
+:imap jj <Esc>
 
 set tabstop=4                " show existing tab with 4 spaces width
 set expandtab                " On pressing tab, insert 4 spaces

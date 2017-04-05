@@ -28,6 +28,17 @@
 	<integer>1</integer>
 	<key>Coprocess MRU</key>
 	<array>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/02a643d6-86c7-4d05-86d4-fcb6627282ba"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/9e81ca4b-4366-4298-b247-844b6b6fbdd9"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/d8efd748-08b1-4511-aa46-9ff635cd4909"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/33b9e4f2-c3b3-4240-82a6-233532f5ccc0"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/1ff2a15c-c474-4565-a9a0-0f00a68735f4"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/ead14d4f-ba71-4c42-b95d-ec2e29458412"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/1825f00e-1a79-4553-ac5d-8e0f2d4e3408"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/87424cc6-60b5-4ab8-b8a4-e257649c5b35"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/12082aa2-e887-4933-b1fc-3357a6a7834c"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/0697d9f3-c4c4-4139-9add-a9aca35abc19"'</string>
+		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/7c9c7a52-f838-481e-bd82-f764de5fbd97"'</string>
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/a42f325d-dcad-41fd-9f44-a9d244cc0ac6"'</string>
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/abb17e8e-6444-4ef3-ade7-c4c029d1d5c2"'</string>
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/bc0e3532-7c52-439d-bcd6-88de1753717d"'</string>
@@ -37,12 +48,6 @@
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/cfa72982-28c4-4359-ba18-33f80eeaf32f"'</string>
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/fb8b996d-7837-46a2-8088-695f7cb4112a"'</string>
 		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/ba5d704a-2d8c-4f9b-aec2-6581864996ac"'</string>
-		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/6dea1dad-a083-403f-b03c-c784a42ba9e7"'</string>
-		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/a0a67409-4d77-40ee-982a-8074189443b8"'</string>
-		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/b4d559a9-0165-4aa3-a59f-b32904fa235c"'</string>
-		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/eb93b796-a9f6-433d-a688-cef429ecb10c"'</string>
-		<string>osascript -e 'tell application "Google Chrome" to open location "chrome-devtools://devtools/remote/serve_file/@60cd6e859b9f557d2312f5bf532f6aec5f284980/inspector.html?experiments=true&amp;v8only=true&amp;ws=127.0.0.1:9229/10c7c1bf-bfba-4537-b0c3-50ea16d6cf30"'</string>
-		<string>backward-word</string>
 	</array>
 	<key>CopyLastNewline</key>
 	<false/>
@@ -751,11 +756,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 589 620 392 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>289 404 796 473 0 0 1920 1177 </string>
+	<string>966 213 937 512 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>1083 5 837 1172 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>551 132 710 974 0 0 1920 1177 </string>
+	<string>551 4 836 1166 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1194,6 +1199,13 @@
 					<key>Text</key>
 					<string>b</string>
 				</dict>
+				<key>0xf702-0x380000</key>
+				<dict>
+					<key>Action</key>
+					<integer>31</integer>
+					<key>Text</key>
+					<string></string>
+				</dict>
 				<key>0xf703-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -1226,6 +1238,13 @@
 				<dict>
 					<key>Action</key>
 					<integer>13</integer>
+					<key>Text</key>
+					<string></string>
+				</dict>
+				<key>0xf703-0x380000</key>
+				<dict>
+					<key>Action</key>
+					<integer>30</integer>
 					<key>Text</key>
 					<string></string>
 				</dict>
@@ -1685,11 +1704,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml?shard=74</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=74</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-24T03:52:55Z</date>
+	<date>2017-03-20T02:24:48Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1747,7 +1766,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.20170122-nightly</string>
+	<string>3.1.beta.2</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

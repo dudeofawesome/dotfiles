@@ -147,7 +147,7 @@
 			<key>Gitmoji</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:32Z</date>
+				<date>2017-03-15T22:47:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -737,7 +737,7 @@
 			<key>electron</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:33Z</date>
+				<date>2017-03-15T22:48:51Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -806,7 +806,7 @@
 		<dict/>
 	</dict>
 	<key>DHWebViewIsDark</key>
-	<false/>
+	<true/>
 	<key>annotationsAreShown</key>
 	<false/>
 	<key>docsets</key>
@@ -1087,6 +1087,13 @@
 		<key>modifiers</key>
 		<integer>8395520</integer>
 	</dict>
+	<key>searchUsingSelectedTextKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>8395520</integer>
+	</dict>
 	<key>shouldRestoreTabs</key>
 	<true/>
 	<key>shouldShowStatusIcon</key>
@@ -1222,6 +1229,45 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>webSearches</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>Google</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Google</string>
+			<key>url</key>
+			<string>https://www.google.com/search?q={query}</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>DuckDuckGo</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<false/>
+			<key>name</key>
+			<string>DuckDuckGo</string>
+			<key>url</key>
+			<string>https://duckduckgo.com/?q={query}&amp;ia=web</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Stack Overflow</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Stack Overflow</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q={query}</string>
+		</dict>
+	</array>
 	<key>windowStyle</key>
 	<string>HUD</string>
 </dict>
