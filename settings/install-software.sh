@@ -327,6 +327,7 @@ brew cask install betterzipql > /dev/null
 brew cask install qlmarkdown > /dev/null
 brew cask install qlstephen > /dev/null
 brew cask install qlvideo > /dev/null
+brew cask install quicklookapk > /dev/null
 
 echo ""
 echo "Installing 𝑓o𝑛𝑡𝑠"
