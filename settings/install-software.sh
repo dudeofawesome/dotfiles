@@ -27,6 +27,8 @@ brew install nmap > /dev/null
 brew install imagemagick --with-webp > /dev/null
 brew install libyaml > /dev/null
 brew install cmake > /dev/null
+brew install less > /dev/null
+brew install most > /dev/null
 
 echo ""
 printf "Install Node.JS ${green}⬢${reset}\n"
