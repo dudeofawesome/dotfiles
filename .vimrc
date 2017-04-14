@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'bling/vim-airline'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Quramy/tsuquyomi'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
@@ -63,6 +65,9 @@ set noerrorbells         " don't beep
 set nobackup
 set noswapfile
 
+set ballooneval
+autocmd FileType typescript setlocal balloonexpr=tsuquyomi#balloonexpr()
+
 filetype plugin indent on
 
 autocmd filetype python set expandtab
@@ -83,4 +88,5 @@ set laststatus=2
 
 let g:netrw_liststyle = 3
 autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
