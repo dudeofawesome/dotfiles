@@ -14,12 +14,16 @@ Plugin 'bling/vim-airline'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Keymaps
 :imap jj <Esc>
+
+" Enable mouse
+set mouse=a
 
 set tabstop=4                " show existing tab with 4 spaces width
 set expandtab                " On pressing tab, insert 4 spaces
@@ -78,4 +82,5 @@ let g:airline_powerline_fonts = 1
 set laststatus=2
 
 let g:netrw_liststyle = 3
+autocmd vimenter * NERDTree
 
