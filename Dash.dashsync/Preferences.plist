@@ -147,7 +147,7 @@
 			<key>Gitmoji</key>
 			<dict>
 				<key>date</key>
-				<date>2017-03-15T22:47:59Z</date>
+				<date>2017-04-27T05:32:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -166,7 +166,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:40Z</date>
+				<date>2017-05-09T05:32:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -198,7 +198,7 @@
 			<key>Licenses</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:46Z</date>
+				<date>2017-04-23T05:16:36Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -595,7 +595,7 @@
 			<key>FFmpeg</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:27:21Z</date>
+				<date>2017-04-23T05:16:47Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -737,7 +737,7 @@
 			<key>electron</key>
 			<dict>
 				<key>date</key>
-				<date>2017-03-15T22:48:51Z</date>
+				<date>2017-05-08T05:32:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -806,7 +806,7 @@
 		<dict/>
 	</dict>
 	<key>DHWebViewIsDark</key>
-	<true/>
+	<false/>
 	<key>annotationsAreShown</key>
 	<false/>
 	<key>docsets</key>
@@ -901,7 +901,7 @@
 			<key>http://kapeli.com/feeds/Grunt.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:22:54Z</date>
+				<date>2017-04-23T05:16:53Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Gulp.xml</key>
 			<dict>
@@ -922,11 +922,6 @@
 			<dict>
 				<key>date</key>
 				<date>2017-01-02T08:25:39Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Jade.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:49:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Jasmine.xml</key>
 			<dict>
@@ -1003,6 +998,11 @@
 				<key>date</key>
 				<date>2017-01-02T08:49:50Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-05-03T00:17:38Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/SVG.xml</key>
 			<dict>
 				<key>date</key>
@@ -1050,6 +1050,11 @@
 			<dict>
 				<key>date</key>
 				<date>2016-09-29T01:15:29Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-05-03T00:17:32Z</date>
 			</dict>
 		</dict>
 	</dict>
