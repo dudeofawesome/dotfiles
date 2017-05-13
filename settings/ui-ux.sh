@@ -55,10 +55,6 @@ sudo mdutil -i on / > /dev/null
 sudo mdutil -E / > /dev/null
 
 echo ""
-echo "Enable the sound effect on boot"
-sudo nvram BootAudio=%01
-
-echo ""
 echo "Enable feedback sound when volume is changed"
 defaults write ~/Library/Preferences/.GlobalPreferences.plist com.apple.sound.beep.feedback -int 1
 
