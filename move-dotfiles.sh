@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "libs.sh"
+source "./libs.sh"
 
 echo "###############################################################################"
 echo "# Copy dotfiles into place"
@@ -12,3 +12,4 @@ cp -a .config/ ~/
 cp -a .editorconfig ~/
 cp -a .hyper.js ~/
 cp -a .vimrc ~/
+cp -a .gemrc ~/
