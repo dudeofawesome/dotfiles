@@ -149,7 +149,7 @@
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 124,
           "BTTShortcutModifierKeys" : 1048576,
-          "BTTOrder" : 2
+          "BTTOrder" : 1
         },
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -165,12 +165,11 @@
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 117,
           "BTTShortcutModifierKeys" : 1048576,
-          "BTTOrder" : 0
+          "BTTOrder" : 2
         },
         {
-          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTShortcutToSend" : "58,2",
+          "BTTShortcutToSend" : "58,13",
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 117,
           "BTTShortcutModifierKeys" : 524288,
@@ -183,7 +182,7 @@
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 123,
           "BTTShortcutModifierKeys" : 1048576,
-          "BTTOrder" : 1
+          "BTTOrder" : 0
         }
       ]
     },
