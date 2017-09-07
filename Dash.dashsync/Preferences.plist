@@ -531,6 +531,8 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>DHHighlightedWebViewTextSizeMultiplier</key>
+	<real>0.0</real>
 	<key>DHJavaRepo</key>
 	<dict>
 		<key>installed</key>
