@@ -89,11 +89,6 @@ fish -c "omf install agnoster"
 cd ~
 
 echo ""
-echo "Installing ZSH"
-brew install zsh > /dev/null
-sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
-
-echo ""
 echo "Installing Certbot 🤖"
 brew install certbot > /dev/null
 
