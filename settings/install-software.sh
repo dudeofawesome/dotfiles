@@ -172,10 +172,6 @@ echo "Installing iTerm 2"
 brew cask install iterm2 > /dev/null
 
 echo ""
-echo "Installing Postico 🐘"
-brew cask install postico > /dev/null
-
-echo ""
 echo "Installing Postman 📮"
 brew cask install postman > /dev/null
 
@@ -194,6 +190,10 @@ brew cask install github-desktop > /dev/null
 echo ""
 echo "Installing Cyberduck 🦆"
 brew cask install cyberduck > /dev/null
+
+echo ""
+echo "Installing Postico 🐘"
+brew cask install postico > /dev/null
 
 echo ""
 echo "Installing MongoHub"
@@ -217,7 +217,7 @@ brew cask install android-studio > /dev/null
 
 echo ""
 echo "Installing Android SDK"
-brew install android-sdk > /dev/null
+brew cask install android-sdk > /dev/null
 
 echo ""
 echo "Installing Docker 🐳"
