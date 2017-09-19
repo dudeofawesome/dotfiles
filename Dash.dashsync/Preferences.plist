@@ -532,7 +532,7 @@
 		<dict/>
 	</dict>
 	<key>DHHighlightedWebViewTextSizeMultiplier</key>
-	<real>0.0</real>
+	<real>1</real>
 	<key>DHJavaRepo</key>
 	<dict>
 		<key>installed</key>
