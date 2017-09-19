@@ -265,6 +265,10 @@ echo "Installing Insync"
 brew cask install insync > /dev/null
 
 echo ""
+echo "Installing Find Any File"
+brew cask install find-any-file > /dev/null
+
+echo ""
 echo "Installing Audacity 🎹"
 brew cask install audacity > /dev/null
 
