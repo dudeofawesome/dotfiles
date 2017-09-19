@@ -253,6 +253,10 @@ echo "Installing VLC ▶️"
 brew cask install vlc > /dev/null
 
 echo ""
+echo "Installing IINA ▶️"
+brew cask install iina > /dev/null
+
+echo ""
 echo "Installing BetterTouchTool"
 brew cask install bettertouchtool > /dev/null
 
