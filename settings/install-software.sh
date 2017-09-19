@@ -309,6 +309,10 @@ echo "Installing Xbench"
 brew cask install xbench > /dev/null
 
 echo ""
+echo "Installing Google Play Music Desktop Player 🎵"
+brew cask install google-play-music-desktop-player > /dev/null
+
+echo ""
 echo "Installing Spotify 🎵"
 brew cask install spotify > /dev/null
 
