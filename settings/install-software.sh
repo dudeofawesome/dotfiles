@@ -50,18 +50,12 @@ echo "Install Travis CLI"
 sudo gem install travis > /dev/null
 
 echo ""
-echo "Install Ionic"
-sudo npm install -g cordova -s > /dev/null
-sudo npm install -g ionic -s > /dev/null
+echo "Install ios-sim for Ionic"
 sudo npm install -g ios-sim -s > /dev/null
 
 echo ""
 echo "Install Typescript"
 sudo npm install -g typescript tslint ts-node -s > /dev/null
-
-echo ""
-echo "Install StrongLoop"
-sudo npm install -g strongloop apiconnect -s > /dev/null
 
 echo ""
 echo "Install Gulp and Grunt"
