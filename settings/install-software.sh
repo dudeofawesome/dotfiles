@@ -317,6 +317,10 @@ echo "Installing Spotify 🎵"
 brew cask install spotify > /dev/null
 
 echo ""
+echo "Installing Steam 🎮"
+brew cask install steam > /dev/null
+
+echo ""
 echo "Installing QuickLook extensions 👁‍🗨"
 brew cask install qlcolorcode > /dev/null
 brew cask install betterzipql > /dev/null
