@@ -160,10 +160,6 @@ echo "Installing VSCode"
 brew cask install visual-studio-code > /dev/null
 
 echo ""
-printf "Installing Atom ${green}⚛${reset}\n"
-brew cask install atom > /dev/null
-
-echo ""
 echo "Installing Sublime Text"
 brew cask install sublime-text > /dev/null
 
