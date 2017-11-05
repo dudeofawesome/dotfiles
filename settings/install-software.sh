@@ -50,18 +50,12 @@ echo "Install Travis CLI"
 sudo gem install travis > /dev/null
 
 echo ""
-echo "Install Ionic"
-sudo npm install -g cordova -s > /dev/null
-sudo npm install -g ionic -s > /dev/null
+echo "Install ios-sim for Ionic"
 sudo npm install -g ios-sim -s > /dev/null
 
 echo ""
 echo "Install Typescript"
 sudo npm install -g typescript tslint ts-node -s > /dev/null
-
-echo ""
-echo "Install StrongLoop"
-sudo npm install -g strongloop apiconnect -s > /dev/null
 
 echo ""
 echo "Install Gulp and Grunt"
@@ -93,11 +87,6 @@ fish -c "omf install node-binpath"
 fish -c "omf install https://github.com/dudeofawesome/omf-plugin-yarn"
 fish -c "omf install agnoster"
 cd ~
-
-echo ""
-echo "Installing ZSH"
-brew install zsh > /dev/null
-sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
 
 echo ""
 echo "Installing Certbot 🤖"
@@ -171,10 +160,6 @@ echo "Installing VSCode"
 brew cask install visual-studio-code > /dev/null
 
 echo ""
-printf "Installing Atom ${green}⚛${reset}\n"
-brew cask install atom > /dev/null
-
-echo ""
 echo "Installing Sublime Text"
 brew cask install sublime-text > /dev/null
 
@@ -185,10 +170,6 @@ brew cask install dash > /dev/null
 echo ""
 echo "Installing iTerm 2"
 brew cask install iterm2 > /dev/null
-
-echo ""
-echo "Installing Postico 🐘"
-brew cask install postico > /dev/null
 
 echo ""
 echo "Installing Postman 📮"
@@ -209,6 +190,10 @@ brew cask install github-desktop > /dev/null
 echo ""
 echo "Installing Cyberduck 🦆"
 brew cask install cyberduck > /dev/null
+
+echo ""
+echo "Installing Postico 🐘"
+brew cask install postico > /dev/null
 
 echo ""
 echo "Installing MongoHub"
@@ -232,7 +217,7 @@ brew cask install android-studio > /dev/null
 
 echo ""
 echo "Installing Android SDK"
-brew install android-sdk > /dev/null
+brew cask install android-sdk > /dev/null
 
 echo ""
 echo "Installing Docker 🐳"
@@ -268,12 +253,20 @@ echo "Installing VLC ▶️"
 brew cask install vlc > /dev/null
 
 echo ""
+echo "Installing IINA ▶️"
+brew cask install iina > /dev/null
+
+echo ""
 echo "Installing BetterTouchTool"
 brew cask install bettertouchtool > /dev/null
 
 echo ""
 echo "Installing Insync"
 brew cask install insync > /dev/null
+
+echo ""
+echo "Installing Find Any File"
+brew cask install find-any-file > /dev/null
 
 echo ""
 echo "Installing Audacity 🎹"
@@ -308,10 +301,6 @@ echo "Installing Übersicht"
 brew cask install ubersicht > /dev/null
 
 echo ""
-echo "Installing TunnelBlick"
-brew cask install tunnelblick > /dev/null
-
-echo ""
 echo "Installing Transmission"
 brew cask install transmission > /dev/null
 
@@ -320,8 +309,16 @@ echo "Installing Xbench"
 brew cask install xbench > /dev/null
 
 echo ""
+echo "Installing Google Play Music Desktop Player 🎵"
+brew cask install google-play-music-desktop-player > /dev/null
+
+echo ""
 echo "Installing Spotify 🎵"
 brew cask install spotify > /dev/null
+
+echo ""
+echo "Installing Steam 🎮"
+brew cask install steam > /dev/null
 
 echo ""
 echo "Installing QuickLook extensions 👁‍🗨"
