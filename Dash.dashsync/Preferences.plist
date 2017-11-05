@@ -147,7 +147,7 @@
 			<key>Gitmoji</key>
 			<dict>
 				<key>date</key>
-				<date>2017-04-27T09:27:30Z</date>
+				<date>2017-10-24T08:16:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -484,7 +484,106 @@
 	<key>DHDartRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T08:20:07Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter</string>
+				</dict>
+			</dict>
+			<key>flutter_image</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T19:40:26Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_image</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_image</string>
+				</dict>
+			</dict>
+			<key>flutter_redux</key>
+			<dict>
+				<key>date</key>
+				<date>2017-11-01T08:16:12Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_redux</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_redux</string>
+				</dict>
+			</dict>
+			<key>flutter_redux_dev_tools</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T19:40:31Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_redux_dev_tools</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_redux_dev_tools</string>
+				</dict>
+			</dict>
+			<key>flutter_services</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T23:01:49Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_services</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_services</string>
+				</dict>
+			</dict>
+			<key>flutter_tools</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T23:01:50Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_tools</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_tools</string>
+				</dict>
+			</dict>
+			<key>image</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-25T03:45:58Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>image</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>image</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
@@ -532,7 +631,7 @@
 		<dict/>
 	</dict>
 	<key>DHHighlightedWebViewTextSizeMultiplier</key>
-	<real>0.0</real>
+	<real>1</real>
 	<key>DHJavaRepo</key>
 	<dict>
 		<key>installed</key>
@@ -879,6 +978,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-01-02T08:23:58Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Dart.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-10-24T08:16:25Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Docker.xml</key>
 			<dict>
