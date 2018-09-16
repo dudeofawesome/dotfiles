@@ -2,6 +2,9 @@ set nocompatible
 
 filetype off                  " required
 
+" set shell to bash for compatibility with fish
+set shell=/bin/bash
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
