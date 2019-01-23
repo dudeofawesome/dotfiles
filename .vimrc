@@ -17,6 +17,7 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'dart-lang/dart-vim-plugin'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
