@@ -9,7 +9,7 @@
 			<key>ASCII_Tables</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:22Z</date>
+				<date>2018-07-07T07:26:46Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +25,7 @@
 			<key>Atom</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:21Z</date>
+				<date>2018-07-07T07:26:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -41,7 +41,7 @@
 			<key>CSS_Device_Media_Queries</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:23Z</date>
+				<date>2018-07-07T07:26:46Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -57,7 +57,7 @@
 			<key>CSS_Named_Colors</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:48:58Z</date>
+				<date>2018-09-03T01:50:29Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -73,7 +73,7 @@
 			<key>Docker</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:25Z</date>
+				<date>2018-07-07T07:26:42Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -89,7 +89,7 @@
 			<key>Emoji</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:24Z</date>
+				<date>2018-07-07T07:26:42Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -105,7 +105,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2017-07-16T06:09:35Z</date>
+				<date>2019-03-08T22:54:52Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -126,7 +126,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:25Z</date>
+				<date>2018-09-23T07:42:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -147,7 +147,7 @@
 			<key>Gitmoji</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-24T08:16:18Z</date>
+				<date>2018-07-07T07:26:42Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -166,7 +166,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2017-05-09T05:32:32Z</date>
+				<date>2018-07-07T07:26:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -182,7 +182,7 @@
 			<key>LaTeX_Math_Symbols</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:27Z</date>
+				<date>2018-10-20T02:08:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -198,7 +198,7 @@
 			<key>Licenses</key>
 			<dict>
 				<key>date</key>
-				<date>2017-04-23T05:16:36Z</date>
+				<date>2018-07-07T07:26:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -214,7 +214,7 @@
 			<key>Mac_Startup_Keys</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:49Z</date>
+				<date>2018-07-07T07:26:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -230,10 +230,26 @@
 					<string>Mac_Startup_Keys</string>
 				</dict>
 			</dict>
+			<key>OpenSCAD</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-19T08:16:47Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>OpenSCAD</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>OpenSCAD</string>
+				</dict>
+			</dict>
 			<key>PostgreSQL_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:06Z</date>
+				<date>2018-07-07T07:26:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -249,7 +265,7 @@
 			<key>Regular_Expressions</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:23Z</date>
+				<date>2018-07-07T07:26:45Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -268,7 +284,7 @@
 			<key>Sketch</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:20Z</date>
+				<date>2018-07-07T07:26:49Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -286,7 +302,7 @@
 			<key>Swift</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:20Z</date>
+				<date>2018-07-07T07:26:47Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -316,7 +332,7 @@
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:19Z</date>
+				<date>2018-07-07T07:26:45Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -334,7 +350,7 @@
 			<key>Vim</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:25:13Z</date>
+				<date>2019-01-23T21:18:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -350,7 +366,7 @@
 			<key>Visual_Studio_Code</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:04Z</date>
+				<date>2018-07-07T07:26:46Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -366,7 +382,7 @@
 			<key>Xcode_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:24Z</date>
+				<date>2018-08-26T07:39:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -395,7 +411,7 @@
 			<key>YAML</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:25:19Z</date>
+				<date>2018-07-07T07:26:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -411,7 +427,7 @@
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:25Z</date>
+				<date>2018-07-07T07:26:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -432,7 +448,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:24:53Z</date>
+				<date>2018-07-07T07:26:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -452,7 +468,7 @@
 			<key>screen</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:25:06Z</date>
+				<date>2018-07-07T07:26:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -485,10 +501,38 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>args</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-01T01:18:11Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>args</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>args</string>
+				</dict>
+			</dict>
+			<key>community_material_icon</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T19:51:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>community_material_icon</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>community_material_icon</string>
+				</dict>
+			</dict>
 			<key>flutter</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:57:50Z</date>
+				<date>2017-12-16T01:12:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -497,12 +541,26 @@
 					<string>dartdocs</string>
 					<key>uniqueIdentifier</key>
 					<string>flutter</string>
+				</dict>
+			</dict>
+			<key>flutter_html</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-07T03:58:43Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_html</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_html</string>
 				</dict>
 			</dict>
 			<key>flutter_image</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:55:09Z</date>
+				<date>2018-04-25T00:05:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -513,10 +571,24 @@
 					<string>flutter_image</string>
 				</dict>
 			</dict>
+			<key>flutter_markdown</key>
+			<dict>
+				<key>date</key>
+				<date>2018-08-22T07:17:47Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_markdown</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_markdown</string>
+				</dict>
+			</dict>
 			<key>flutter_redux</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:55:17Z</date>
+				<date>2019-01-23T21:20:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -530,7 +602,7 @@
 			<key>flutter_redux_dev_tools</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:55:05Z</date>
+				<date>2018-04-25T00:05:10Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -569,10 +641,38 @@
 					<string>flutter_tools</string>
 				</dict>
 			</dict>
+			<key>flutter_web_browser</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:34:22Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>flutter_web_browser</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>flutter_web_browser</string>
+				</dict>
+			</dict>
+			<key>http</key>
+			<dict>
+				<key>date</key>
+				<date>2019-04-13T01:56:56Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>http</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>http</string>
+				</dict>
+			</dict>
 			<key>image</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:55:34Z</date>
+				<date>2019-06-04T03:59:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -583,6 +683,216 @@
 					<string>image</string>
 				</dict>
 			</dict>
+			<key>intl</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:35:10Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>intl</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>intl</string>
+				</dict>
+			</dict>
+			<key>material_design_icons_flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T19:54:53Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>material_design_icons_flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>material_design_icons_flutter</string>
+				</dict>
+			</dict>
+			<key>package_info</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-04T03:58:44Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>package_info</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>package_info</string>
+				</dict>
+			</dict>
+			<key>path</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:37:22Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>path</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>path</string>
+				</dict>
+			</dict>
+			<key>path_provider</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:37:26Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>path_provider</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>path_provider</string>
+				</dict>
+			</dict>
+			<key>redux</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:26:18Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>redux</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>redux</string>
+				</dict>
+			</dict>
+			<key>redux_persist</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:28:03Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>redux_persist</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>redux_persist</string>
+				</dict>
+			</dict>
+			<key>redux_persist_flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:28:05Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>redux_persist_flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>redux_persist_flutter</string>
+				</dict>
+			</dict>
+			<key>rxdart</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:34:08Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rxdart</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>rxdart</string>
+				</dict>
+			</dict>
+			<key>share</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:37:37Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>share</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>share</string>
+				</dict>
+			</dict>
+			<key>sqflite</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:37:45Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>sqflite</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>sqflite</string>
+				</dict>
+			</dict>
+			<key>timeago</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:38:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>timeago</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>timeago</string>
+				</dict>
+			</dict>
+			<key>timeago_flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:37:53Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>timeago_flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>timeago_flutter</string>
+				</dict>
+			</dict>
+			<key>tuple</key>
+			<dict>
+				<key>date</key>
+				<date>2019-05-25T18:38:03Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>tuple</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>tuple</string>
+				</dict>
+			</dict>
+			<key>webview_flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-04T03:58:44Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>webview_flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>webview_flutter</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict/>
@@ -590,7 +900,50 @@
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>nestjs/nest</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-19T19:58:15Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>nestjs/nest</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>nestjs/nest</string>
+				</dict>
+			</dict>
+			<key>typeorm/typeorm</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-19T19:58:15Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>typeorm/typeorm</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>typeorm/typeorm</string>
+				</dict>
+			</dict>
+			<key>typestack/class-transformer</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-13T17:55:23Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>typestack/class-transformer</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>typestack/class-transformer</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict>
 			<key>caolan/async</key>
@@ -639,7 +992,7 @@
 			<key>io.reactivex.rxjava2:rxandroid</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T19:02:53Z</date>
+				<date>2019-03-08T22:54:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -653,7 +1006,7 @@
 			<key>io.reactivex.rxjava2:rxjava</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T19:01:58Z</date>
+				<date>2019-06-01T01:18:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -662,6 +1015,20 @@
 					<string>javadoc</string>
 					<key>uniqueIdentifier</key>
 					<string>io.reactivex.rxjava2:rxjava</string>
+				</dict>
+			</dict>
+			<key>junit:junit</key>
+			<dict>
+				<key>date</key>
+				<date>2018-03-07T00:42:32Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>junit:junit</string>
+					<key>platform</key>
+					<string>javadoc</string>
+					<key>uniqueIdentifier</key>
+					<string>junit:junit</string>
 				</dict>
 			</dict>
 		</dict>
@@ -678,7 +1045,120 @@
 	<key>DHRubyRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>fastlane</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-04T04:00:17Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>fastlane</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>fastlane</string>
+				</dict>
+			</dict>
+			<key>git</key>
+			<dict>
+				<key>date</key>
+				<date>2018-08-11T06:54:41Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>git</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>git</string>
+				</dict>
+			</dict>
+			<key>semver</key>
+			<dict>
+				<key>date</key>
+				<date>2018-04-26T07:12:57Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>semver</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>semver</string>
+				</dict>
+			</dict>
+			<key>semverse</key>
+			<dict>
+				<key>date</key>
+				<date>2019-01-23T21:18:31Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>semverse</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>semverse</string>
+				</dict>
+			</dict>
+			<key>sqlite3</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-01T22:07:33Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>sqlite3</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>sqlite3</string>
+				</dict>
+			</dict>
+			<key>tty-color</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-01T22:08:24Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>tty-color</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>tty-color</string>
+				</dict>
+			</dict>
+			<key>tty-progressbar</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-01T22:08:17Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>tty-progressbar</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>tty-progressbar</string>
+				</dict>
+			</dict>
+			<key>tty-prompt</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-01T22:08:12Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>tty-prompt</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>tty-prompt</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
@@ -700,32 +1180,10 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>Bluebird</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:27:21Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>promise</string>
-					</array>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Bluebird#readme</string>
-					<key>authorLinkText</key>
-					<string>Gilad Gray</string>
-					<key>name</key>
-					<string>Bluebird</string>
-					<key>platform</key>
-					<string>usercontribBluebird</string>
-					<key>uniqueIdentifier</key>
-					<string>Bluebird</string>
-				</dict>
-			</dict>
 			<key>FFmpeg</key>
 			<dict>
 				<key>date</key>
-				<date>2017-04-23T05:16:47Z</date>
+				<date>2018-05-22T21:46:00Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -818,7 +1276,7 @@
 			<key>Kotlin</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T19:03:20Z</date>
+				<date>2019-01-23T21:18:49Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -826,7 +1284,7 @@
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kotlin#readme</string>
 					<key>authorLinkText</key>
-					<string>Marcel Jackwerth</string>
+					<string>Kevin Cianfarini</string>
 					<key>name</key>
 					<string>Kotlin</string>
 					<key>platform</key>
@@ -860,56 +1318,30 @@
 					<string>Loopback</string>
 				</dict>
 			</dict>
-			<key>NativeScript</key>
+			<key>RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:49:32Z</date>
+				<date>2019-03-08T22:57:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
-					<array>
-						<string>nativescript</string>
-						<string>ns</string>
-						<string>tns</string>
-					</array>
+					<array/>
 					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/NativeScript#readme</string>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/RxJS#readme</string>
 					<key>authorLinkText</key>
-					<string>Aleksey Gureiev</string>
+					<string>Steve Yin</string>
 					<key>name</key>
-					<string>NativeScript</string>
+					<string>RxJS</string>
 					<key>platform</key>
-					<string>usercontribNativeScript</string>
+					<string>usercontribRxJS</string>
 					<key>uniqueIdentifier</key>
-					<string>NativeScript</string>
-				</dict>
-			</dict>
-			<key>electron</key>
-			<dict>
-				<key>date</key>
-				<date>2017-05-08T05:32:31Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>atom-shell</string>
-					</array>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/electron#readme</string>
-					<key>authorLinkText</key>
-					<string>Francesco Pira</string>
-					<key>name</key>
-					<string>Electron</string>
-					<key>platform</key>
-					<string>usercontribelectron</string>
-					<key>uniqueIdentifier</key>
-					<string>electron</string>
+					<string>RxJS</string>
 				</dict>
 			</dict>
 			<key>fish</key>
 			<dict>
 				<key>date</key>
-				<date>2017-07-30T06:09:04Z</date>
+				<date>2019-01-23T21:18:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -953,16 +1385,190 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>Bluebird</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:56:25Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>promise</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Bluebird#readme</string>
+					<key>authorLinkText</key>
+					<string>Gilad Gray</string>
+					<key>name</key>
+					<string>Bluebird</string>
+					<key>platform</key>
+					<string>usercontribBluebird</string>
+					<key>uniqueIdentifier</key>
+					<string>Bluebird</string>
+				</dict>
+			</dict>
+			<key>NativeScript</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:57:09Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>nativescript</string>
+						<string>ns</string>
+						<string>tns</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/NativeScript#readme</string>
+					<key>authorLinkText</key>
+					<string>Aleksey Gureiev</string>
+					<key>name</key>
+					<string>NativeScript</string>
+					<key>platform</key>
+					<string>usercontribNativeScript</string>
+					<key>uniqueIdentifier</key>
+					<string>NativeScript</string>
+				</dict>
+			</dict>
+			<key>React_Native</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:57:27Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>React</string>
+						<string>ReactNative</string>
+						<string>Facebook</string>
+						<string>JavaScript</string>
+						<string>Reactjs</string>
+						<string>UI</string>
+						<string>iOS</string>
+						<string>Android</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/React_Native#readme</string>
+					<key>authorLinkText</key>
+					<string>Vexus2</string>
+					<key>name</key>
+					<string>React Native</string>
+					<key>platform</key>
+					<string>usercontribReact_Native</string>
+					<key>uniqueIdentifier</key>
+					<string>React_Native</string>
+				</dict>
+			</dict>
+			<key>Redux</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:57:32Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Redux</string>
+						<string>React</string>
+						<string>Facebook</string>
+						<string>JavaScript</string>
+						<string>Reactjs</string>
+						<string>UI</string>
+						<string>iOS</string>
+						<string>Android</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Redux#readme</string>
+					<key>authorLinkText</key>
+					<string>Michael Sharer</string>
+					<key>name</key>
+					<string>Redux</string>
+					<key>platform</key>
+					<string>usercontribRedux</string>
+					<key>uniqueIdentifier</key>
+					<string>Redux</string>
+				</dict>
+			</dict>
+			<key>SpigotMC</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:58:31Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>spigot</string>
+						<string>bukkit</string>
+						<string>craftbukkit</string>
+						<string>minecraft</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/SpigotMC#readme</string>
+					<key>authorLinkText</key>
+					<string>Croc</string>
+					<key>name</key>
+					<string>SpigotMC</string>
+					<key>platform</key>
+					<string>usercontribSpigotMC</string>
+					<key>uniqueIdentifier</key>
+					<string>SpigotMC</string>
+				</dict>
+			</dict>
+			<key>electron</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:56:33Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>atom-shell</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/electron#readme</string>
+					<key>authorLinkText</key>
+					<string>Francesco Pira</string>
+					<key>name</key>
+					<string>Electron</string>
+					<key>platform</key>
+					<string>usercontribelectron</string>
+					<key>uniqueIdentifier</key>
+					<string>electron</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>DHWebViewIsDark</key>
 	<false/>
+	<key>actuallyDarkWebView</key>
+	<true/>
 	<key>annotationsAreShown</key>
 	<false/>
+	<key>bookmarks</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>file://~/Library/Application%20Support/Dash/GitHub/typeormtypeorm/typeorm-typeorm.docset/Contents/Resources/Documents/repo/docs/decorator-reference.html#//apple_ref/Section/@JoinColumn</string>
+			<key>platformImagePath</key>
+			<string>github</string>
+			<key>title</key>
+			<string>@JoinColumn - decorator reference</string>
+			<key>typeImagePath</key>
+			<string>Section</string>
+		</dict>
+	</array>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
-		<dict/>
+		<dict>
+			<key>~/Library/Application Support/Dash/GitHub/nestjsnest/nestjs-nest.docset</key>
+			<string>nestjs:</string>
+			<key>~/Library/Application Support/Dash/GitHub/typeormtypeorm/typeorm-typeorm.docset</key>
+			<string>typeorm:</string>
+			<key>~/Library/Application Support/Dash/GitHub/typestackclasstransformer/typestack-class-transformer.docset</key>
+			<string>nestjs:</string>
+		</dict>
 	</dict>
 	<key>feeds</key>
 	<dict>
@@ -1018,11 +1624,6 @@
 				<key>date</key>
 				<date>2017-01-02T08:24:08Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Cordova.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:24:46Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/D3JS.xml</key>
 			<dict>
 				<key>date</key>
@@ -1047,11 +1648,6 @@
 			<dict>
 				<key>date</key>
 				<date>2017-01-02T08:49:44Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Grunt.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-04-23T05:16:53Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Gulp.xml</key>
 			<dict>
@@ -1083,15 +1679,10 @@
 				<key>date</key>
 				<date>2017-01-02T08:26:36Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Java_SE8.xml</key>
+			<key>http://kapeli.com/feeds/Java_SE11.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-02T08:26:47Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Java_SE9.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-11-05T18:57:13Z</date>
+				<date>2019-03-08T22:54:18Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
@@ -1163,11 +1754,6 @@
 				<key>date</key>
 				<date>2017-01-02T08:26:46Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/SailsJS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:49:47Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/Sass.xml</key>
 			<dict>
 				<key>date</key>
@@ -1178,11 +1764,6 @@
 				<key>date</key>
 				<date>2017-01-02T08:24:05Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Vim.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:24:29Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
 			<dict>
 				<key>date</key>
@@ -1191,6 +1772,26 @@
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/Cordova.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:55:19Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Grunt.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:55:31Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Java_SE8.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:54:09Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Java_SE9.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:54:19Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Jekyll.xml</key>
 			<dict>
 				<key>date</key>
@@ -1205,6 +1806,16 @@
 			<dict>
 				<key>date</key>
 				<date>2017-05-03T00:17:32Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/SailsJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:55:50Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Vim.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-03-08T22:56:04Z</date>
 			</dict>
 		</dict>
 	</dict>
