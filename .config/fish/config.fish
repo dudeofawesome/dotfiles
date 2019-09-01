@@ -11,6 +11,7 @@ set -x ANDROID_HOME "/Users/"(whoami)"/Library/Android/sdk"
 set -x ANDROID_SDK_ROOT "/Users/"(whoami)"/Library/Android/sdk"
 
 set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools $HOME/Library/Developer/flutter/bin $HOME/.fastlane/bin
+set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
 
 set -Ux EDITOR vim
 
