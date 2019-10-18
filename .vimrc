@@ -17,7 +17,6 @@ Plugin 'bling/vim-airline'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'Quramy/tsuquyomi'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'dart-lang/dart-vim-plugin'
@@ -27,6 +26,9 @@ filetype plugin indent on    " required
 
 " Keymaps
 :imap jj <Esc>
+
+" Redo with U instead of Ctrl+R
+nnoremap U <C-R>
 
 " Enable mouse
 set mouse=a
