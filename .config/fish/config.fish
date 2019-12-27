@@ -15,3 +15,6 @@ set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
 
 set -Ux EDITOR vim
 
+#set -x fish_emoji_width 2
+#set -x fish_ambiguous_width 2
+
