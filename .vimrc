@@ -20,6 +20,7 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'kien/rainbow_parentheses.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
