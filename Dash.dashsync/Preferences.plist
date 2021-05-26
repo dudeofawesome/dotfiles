@@ -9,7 +9,7 @@
 			<key>ASCII_Tables</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:46Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +25,7 @@
 			<key>Atom</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:48Z</date>
+				<date>2021-03-25T20:30:22Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -41,7 +41,7 @@
 			<key>CSS_Device_Media_Queries</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:46Z</date>
+				<date>2021-03-25T20:30:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -57,7 +57,7 @@
 			<key>CSS_Named_Colors</key>
 			<dict>
 				<key>date</key>
-				<date>2018-09-03T01:50:29Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -73,7 +73,7 @@
 			<key>Docker</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:42Z</date>
+				<date>2021-03-25T20:30:14Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -89,7 +89,7 @@
 			<key>Emoji</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:42Z</date>
+				<date>2021-03-25T20:30:12Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -105,7 +105,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2019-03-08T22:54:52Z</date>
+				<date>2021-03-25T20:30:13Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -126,7 +126,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2018-09-23T07:42:32Z</date>
+				<date>2021-03-25T20:30:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -147,7 +147,7 @@
 			<key>Gitmoji</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:42Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -166,7 +166,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:43Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -182,7 +182,7 @@
 			<key>LaTeX_Math_Symbols</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-20T02:08:19Z</date>
+				<date>2021-03-25T20:30:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -198,7 +198,7 @@
 			<key>Licenses</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:43Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -214,7 +214,7 @@
 			<key>Mac_Startup_Keys</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:43Z</date>
+				<date>2021-03-25T20:30:16Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -233,7 +233,7 @@
 			<key>OpenSCAD</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-19T08:16:47Z</date>
+				<date>2021-03-25T20:30:30Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -249,7 +249,7 @@
 			<key>PostgreSQL_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:48Z</date>
+				<date>2021-03-25T20:30:21Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -265,7 +265,7 @@
 			<key>Regular_Expressions</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:45Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -284,7 +284,7 @@
 			<key>Sketch</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:49Z</date>
+				<date>2021-03-25T20:30:25Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -302,7 +302,7 @@
 			<key>Swift</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:47Z</date>
+				<date>2021-03-25T20:30:21Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -332,7 +332,7 @@
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:45Z</date>
+				<date>2021-03-25T20:30:15Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -350,7 +350,7 @@
 			<key>Vim</key>
 			<dict>
 				<key>date</key>
-				<date>2019-01-23T21:18:31Z</date>
+				<date>2021-03-25T20:30:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -366,7 +366,7 @@
 			<key>Visual_Studio_Code</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:46Z</date>
+				<date>2021-03-25T20:30:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -382,7 +382,7 @@
 			<key>Xcode_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2018-08-26T07:39:09Z</date>
+				<date>2021-03-25T20:30:24Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -411,7 +411,7 @@
 			<key>YAML</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:44Z</date>
+				<date>2021-03-25T20:30:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -424,10 +424,28 @@
 					<string>YAML</string>
 				</dict>
 			</dict>
+			<key>Yard</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-25T20:30:28Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ruby</string>
+					</array>
+					<key>name</key>
+					<string>Yard</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Yard</string>
+				</dict>
+			</dict>
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:48Z</date>
+				<date>2021-03-25T20:30:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -448,7 +466,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:44Z</date>
+				<date>2021-03-25T20:30:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -468,7 +486,7 @@
 			<key>screen</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-07T07:26:44Z</date>
+				<date>2021-03-25T20:30:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -504,7 +522,7 @@
 			<key>args</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T01:18:11Z</date>
+				<date>2021-02-06T01:09:07Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -513,20 +531,6 @@
 					<string>dartdocs</string>
 					<key>uniqueIdentifier</key>
 					<string>args</string>
-				</dict>
-			</dict>
-			<key>community_material_icon</key>
-			<dict>
-				<key>date</key>
-				<date>2019-05-25T19:51:01Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>community_material_icon</string>
-					<key>platform</key>
-					<string>dartdocs</string>
-					<key>uniqueIdentifier</key>
-					<string>community_material_icon</string>
 				</dict>
 			</dict>
 			<key>flutter</key>
@@ -546,7 +550,7 @@
 			<key>flutter_html</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-07T03:58:43Z</date>
+				<date>2021-03-25T20:33:45Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -560,7 +564,7 @@
 			<key>flutter_image</key>
 			<dict>
 				<key>date</key>
-				<date>2018-04-25T00:05:11Z</date>
+				<date>2019-12-30T08:20:14Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -574,7 +578,7 @@
 			<key>flutter_markdown</key>
 			<dict>
 				<key>date</key>
-				<date>2018-08-22T07:17:47Z</date>
+				<date>2021-03-25T20:31:14Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -588,7 +592,7 @@
 			<key>flutter_redux</key>
 			<dict>
 				<key>date</key>
-				<date>2019-01-23T21:20:44Z</date>
+				<date>2021-03-25T20:30:34Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -602,7 +606,7 @@
 			<key>flutter_redux_dev_tools</key>
 			<dict>
 				<key>date</key>
-				<date>2018-04-25T00:05:10Z</date>
+				<date>2021-03-25T20:30:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -630,7 +634,7 @@
 			<key>flutter_tools</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T18:55:05Z</date>
+				<date>2019-12-30T08:20:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -644,7 +648,7 @@
 			<key>flutter_web_browser</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:34:22Z</date>
+				<date>2021-03-25T20:31:26Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -658,7 +662,7 @@
 			<key>http</key>
 			<dict>
 				<key>date</key>
-				<date>2019-04-13T01:56:56Z</date>
+				<date>2021-03-25T20:33:50Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -672,7 +676,7 @@
 			<key>image</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-04T03:59:05Z</date>
+				<date>2021-03-25T20:31:17Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -686,7 +690,7 @@
 			<key>intl</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:35:10Z</date>
+				<date>2021-02-04T01:09:12Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -695,26 +699,12 @@
 					<string>dartdocs</string>
 					<key>uniqueIdentifier</key>
 					<string>intl</string>
-				</dict>
-			</dict>
-			<key>material_design_icons_flutter</key>
-			<dict>
-				<key>date</key>
-				<date>2019-05-25T19:54:53Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>material_design_icons_flutter</string>
-					<key>platform</key>
-					<string>dartdocs</string>
-					<key>uniqueIdentifier</key>
-					<string>material_design_icons_flutter</string>
 				</dict>
 			</dict>
 			<key>package_info</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-04T03:58:44Z</date>
+				<date>2021-03-25T20:31:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -728,7 +718,7 @@
 			<key>path</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:37:22Z</date>
+				<date>2021-02-03T01:09:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -742,7 +732,7 @@
 			<key>path_provider</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:37:26Z</date>
+				<date>2021-03-25T20:31:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -756,7 +746,7 @@
 			<key>redux</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:26:18Z</date>
+				<date>2021-03-25T20:32:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -770,7 +760,7 @@
 			<key>redux_persist</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:28:03Z</date>
+				<date>2021-03-25T20:30:50Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -784,7 +774,7 @@
 			<key>redux_persist_flutter</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:28:05Z</date>
+				<date>2021-03-25T20:31:36Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -798,7 +788,7 @@
 			<key>rxdart</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:34:08Z</date>
+				<date>2021-03-25T20:31:38Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -812,7 +802,7 @@
 			<key>share</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:37:37Z</date>
+				<date>2021-03-25T20:32:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -826,7 +816,7 @@
 			<key>sqflite</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:37:45Z</date>
+				<date>2021-03-25T20:31:55Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -840,7 +830,7 @@
 			<key>timeago</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:38:01Z</date>
+				<date>2021-03-25T20:33:24Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -854,7 +844,7 @@
 			<key>timeago_flutter</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:37:53Z</date>
+				<date>2020-10-26T13:59:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -868,7 +858,7 @@
 			<key>tuple</key>
 			<dict>
 				<key>date</key>
-				<date>2019-05-25T18:38:03Z</date>
+				<date>2021-03-25T20:31:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -882,7 +872,7 @@
 			<key>webview_flutter</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-04T03:58:44Z</date>
+				<date>2021-03-25T20:30:57Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -895,16 +885,59 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>community_material_icon</key>
+			<dict>
+				<key>date</key>
+				<date>2020-04-10T03:41:17Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>community_material_icon</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>community_material_icon</string>
+				</dict>
+			</dict>
+			<key>material_design_icons_flutter</key>
+			<dict>
+				<key>date</key>
+				<date>2020-04-10T03:41:11Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>material_design_icons_flutter</string>
+					<key>platform</key>
+					<string>dartdocs</string>
+					<key>uniqueIdentifier</key>
+					<string>material_design_icons_flutter</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>moment/luxon</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-25T20:34:15Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>moment/luxon</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>moment/luxon</string>
+				</dict>
+			</dict>
 			<key>nestjs/nest</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-19T19:58:15Z</date>
+				<date>2021-03-30T06:32:37Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -915,10 +948,24 @@
 					<string>nestjs/nest</string>
 				</dict>
 			</dict>
+			<key>testing-library/testing-library-docs</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-25T20:40:30Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>testing-library/testing-library-docs</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>testing-library/testing-library-docs</string>
+				</dict>
+			</dict>
 			<key>typeorm/typeorm</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-19T19:58:15Z</date>
+				<date>2021-03-30T06:33:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -932,7 +979,7 @@
 			<key>typestack/class-transformer</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-13T17:55:23Z</date>
+				<date>2021-03-25T20:33:37Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -958,6 +1005,20 @@
 					<string>github</string>
 					<key>uniqueIdentifier</key>
 					<string>caolan/async</string>
+				</dict>
+			</dict>
+			<key>testing-library/react-testing-library</key>
+			<dict>
+				<key>date</key>
+				<date>2020-04-01T15:54:15Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>testing-library/react-testing-library</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>testing-library/react-testing-library</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1006,7 +1067,7 @@
 			<key>io.reactivex.rxjava2:rxjava</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T01:18:06Z</date>
+				<date>2021-03-25T20:30:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1020,7 +1081,7 @@
 			<key>junit:junit</key>
 			<dict>
 				<key>date</key>
-				<date>2018-03-07T00:42:32Z</date>
+				<date>2021-03-25T20:30:35Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1049,7 +1110,7 @@
 			<key>fastlane</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-04T04:00:17Z</date>
+				<date>2021-03-26T20:32:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1063,7 +1124,7 @@
 			<key>git</key>
 			<dict>
 				<key>date</key>
-				<date>2018-08-11T06:54:41Z</date>
+				<date>2021-01-05T19:42:35Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1105,7 +1166,7 @@
 			<key>sqlite3</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T22:07:33Z</date>
+				<date>2019-12-30T08:20:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1119,7 +1180,7 @@
 			<key>tty-color</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T22:08:24Z</date>
+				<date>2020-11-08T09:16:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1133,7 +1194,7 @@
 			<key>tty-progressbar</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T22:08:17Z</date>
+				<date>2021-03-25T20:30:36Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1147,7 +1208,7 @@
 			<key>tty-prompt</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-01T22:08:12Z</date>
+				<date>2020-12-22T23:27:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -1158,9 +1219,52 @@
 					<string>tty-prompt</string>
 				</dict>
 			</dict>
+			<key>yard</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T19:43:09Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>yard</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>yard</string>
+				</dict>
+			</dict>
+			<key>yard_types</key>
+			<dict>
+				<key>date</key>
+				<date>2019-06-25T07:57:46Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>yard_types</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>yard_types</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>google</key>
+			<dict>
+				<key>date</key>
+				<date>2020-07-13T19:30:53Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>google</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>google</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>DHScalaRepo</key>
 	<dict>
@@ -1276,7 +1380,7 @@
 			<key>Kotlin</key>
 			<dict>
 				<key>date</key>
-				<date>2019-01-23T21:18:49Z</date>
+				<date>2021-01-20T01:19:16Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1284,7 +1388,7 @@
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kotlin#readme</string>
 					<key>authorLinkText</key>
-					<string>Kevin Cianfarini</string>
+					<string>Alexander Ronald Altman</string>
 					<key>name</key>
 					<string>Kotlin</string>
 					<key>platform</key>
@@ -1321,7 +1425,7 @@
 			<key>RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2019-03-08T22:57:59Z</date>
+				<date>2019-09-05T00:24:37Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1341,7 +1445,7 @@
 			<key>fish</key>
 			<dict>
 				<key>date</key>
-				<date>2019-01-23T21:18:31Z</date>
+				<date>2021-03-25T20:30:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1579,11 +1683,6 @@
 				<key>date</key>
 				<date>2017-01-02T08:21:51Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Android.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:25:41Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/Angular.xml</key>
 			<dict>
 				<key>date</key>
@@ -1593,11 +1692,6 @@
 			<dict>
 				<key>date</key>
 				<date>2017-01-02T08:26:14Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-02T08:22:32Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Arduino.xml</key>
 			<dict>
@@ -1772,6 +1866,16 @@
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/Android.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-08-16T04:54:43Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-04-10T03:41:33Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Cordova.xml</key>
 			<dict>
 				<key>date</key>
