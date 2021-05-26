@@ -20,7 +20,7 @@ fish_add_path $ANDROID_HOME/platform-tools
 fish_add_path $HOME/Library/Developer/flutter/bin
 fish_add_path $HOME/.fastlane/bin
 fish_add_path $HOME/.gem/ruby/2.6.0/bin
-
+fish_add_path $HOME/go/bin
 
 set -g fish_user_paths "/usr/local/sbin" "/usr/local/opt/ruby/bin" $fish_user_paths
 
