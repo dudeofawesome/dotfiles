@@ -3,7 +3,7 @@ function cl -d "cd into directory and ls"
   ls
 end
 abbr -a l ls -lha
-abbr -a lblk lsblk --output NAME,SIZE,RM,FSTYPE,UUID,MOUNTPOINT
+abbr -a lblk lsblk --output NAME,SIZE,RM,FSTYPE,SERIAL,MOUNTPOINT
 
 abbr -a reload source ~/.config/fish/config.fish
 
