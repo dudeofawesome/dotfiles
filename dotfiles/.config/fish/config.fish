@@ -13,6 +13,7 @@ set -x ANDROID_HOME "/Users/"(whoami)"/Library/Android/sdk"
 set -x ANDROID_SDK_ROOT "/Users/"(whoami)"/Library/Android/sdk"
 
 fish_add_path /usr/local/bin
+fish_add_path /opt/homebrew/bin
 fish_add_path $HOME/.local/bin
 fish_add_path $ANDROID_HOME/tools
 fish_add_path $ANDROID_HOME/tools/bin
