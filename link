@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'pathname'
+require 'fileutils'
+
+def main
+  options = {
+    source_path: "#{Dir.pwd}/home",
+    target_path: Dir.home,
+  }
+  OptionParser.new do |opts|
+    opts.banner = "Usage:   link [OPTIONS]"
+
+    opts.on("-s", "--source-path", "Absolute path to source dotfiles from. Defaults to $PWD/home") do |p|
+      options[:source_path] = p
+    end
+    opts.on("-t", "--target-path", "Absolute path to install dotfiles to. Defaults to $HOME") do |p|
+      options[:target_path] = p
+    end
+  end.parse!
+
+  create_links(options)
+end
+
+def create_links(options)
+  dotfiles = `find -L #{options[:source_path]} -type f`
+    .lines
+    .map {|f| f.gsub(/^#{options[:source_path]}\//, '').rstrip }
+
+  for df in dotfiles do
+    df_dir = Pathname.new(df).parent.to_s
+    df_dir = '' if df_dir == '.'
+    df_dir += '/' if df_dir != ''
+
+    target_file = "#{options[:target_path]}/#{df_dir}"
+    FileUtils.mkdir_p(target_file) unless Dir.exist?(target_file)
+
+    if (df.end_with?('linux') and not RUBY_PLATFORM.match 'linux')
+      next
+    elsif (df.end_with?('mac') and not RUBY_PLATFORM.match 'darwin')
+      next
+    elsif (df.end_with?('windows') and not RUBY_PLATFORM.match 'windows')
+      next
+    end
+
+    filename = Pathname.new(df).basename.to_s
+    if (df.end_with?('linux') and RUBY_PLATFORM.match 'linux')
+      target_file = "#{target_file}#{filename.gsub(/\.linux$/, '')}"
+    elsif (df.end_with?('mac') and RUBY_PLATFORM.match 'darwin')
+      target_file = "#{target_file}#{filename.gsub(/\.mac$/, '')}"
+    elsif (df.end_with?('windows') and RUBY_PLATFORM.match 'windows')
+      target_file = "#{target_file}#{filename.gsub(/\.windows$/, '')}"
+    else
+      target_file = "#{target_file}#{filename}"
+    end
+
+    `ln -s '#{options[:source_path]}/#{df}' '#{target_file}'` unless File.symlink?(target_file) or File.exist?(target_file)
+  end
+
+  puts "Linked all dotfiles!"
+end
+
+main
