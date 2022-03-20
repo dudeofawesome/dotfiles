@@ -4,3 +4,5 @@ jorgebucaran/nvm.fish
 rbenv/fish-rbenv
 oh-my-fish/plugin-osx
 dudeofawesome/plugin-node-binpath
+jorgebucaran/autopair.fish
+jduchateau/fish-flutter-completions

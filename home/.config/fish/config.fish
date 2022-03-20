@@ -7,6 +7,7 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 
 set -x ANDROID_HOME "/Users/"(whoami)"/Library/Android/sdk"
 set -x ANDROID_SDK_ROOT "/Users/"(whoami)"/Library/Android/sdk"
+set -Ux EDITOR vim
 
 fish_add_path /usr/local/bin
 fish_add_path /usr/local/sbin
@@ -21,4 +22,7 @@ fish_add_path $ANDROID_HOME/tools
 fish_add_path $ANDROID_HOME/tools/bin
 fish_add_path $ANDROID_HOME/platform-tools
 
-set -Ux EDITOR vim
+# `nvm use` if .nvmrc is present on shell launch
+if test -f .nvmrc
+  echo (nvm use)
+end
