@@ -1,3 +1,5 @@
+source ~/.config/fish/tide.config.fish
+
 abbr -a reload source ~/.config/fish/config.fish
 
 abbr -a l ls -lha
