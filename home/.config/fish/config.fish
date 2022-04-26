@@ -1,3 +1,6 @@
+# wipe previous abbreviations, since we're recreating them here
+abbr --erase (abbr --list)
+
 source ~/.config/fish/tide.config.fish
 
 abbr -a reload source ~/.config/fish/config.fish
