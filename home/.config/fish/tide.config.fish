@@ -81,7 +81,6 @@ set -U tide_node_icon \u2b22
 
 set -U tide_os_bg_color CED7CF
 set -U tide_os_color 080808
-set -U tide_os_icon \uf179
 
 set -U tide_php_bg_color 617CBE
 set -U tide_php_color 000000
