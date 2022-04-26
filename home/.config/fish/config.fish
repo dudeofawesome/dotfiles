@@ -10,8 +10,8 @@ abbr -a lblk lsblk --output NAME,SIZE,RM,FSTYPE,FSUSE%,SERIAL,MOUNTPOINT
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
-set -x ANDROID_HOME "/Users/"(whoami)"/Library/Android/sdk"
-set -x ANDROID_SDK_ROOT "/Users/"(whoami)"/Library/Android/sdk"
+set -x ANDROID_HOME "$HOME/Library/Android/sdk"
+set -x ANDROID_SDK_ROOT "$HOME/Library/Android/sdk"
 set -Ux EDITOR vim
 
 fish_add_path /usr/local/bin
