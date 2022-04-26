@@ -28,6 +28,6 @@ fish_add_path $ANDROID_HOME/tools/bin
 fish_add_path $ANDROID_HOME/platform-tools
 
 # `nvm use` if .nvmrc is present on shell launch
-if test -f .nvmrc
+if test -f .nvmrc || test -f .node-version
   echo (nvm use)
 end
