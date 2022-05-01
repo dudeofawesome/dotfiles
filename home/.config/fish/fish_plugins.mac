@@ -6,3 +6,4 @@ oh-my-fish/plugin-osx
 dudeofawesome/plugin-node-binpath
 jorgebucaran/autopair.fish
 jduchateau/fish-flutter-completions
+lilyball/nix-env.fish
