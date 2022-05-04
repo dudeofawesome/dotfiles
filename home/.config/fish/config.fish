@@ -31,3 +31,13 @@ fish_add_path $ANDROID_HOME/platform-tools
 if test -f .nvmrc || test -f .node-version
   echo (nvm use)
 end
+
+set -x FVM_HOME "$HOME/.local/share/fvm"
+# use FVM if .fvm is present
+if test -f .fvm/flutter_sdk/bin/flutter
+  echo Using FVM (fvm --version)
+  function flutter
+    echo "Using .fvm …"
+    fvm flutter $argv
+  end
+end
