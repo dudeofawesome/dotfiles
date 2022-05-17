@@ -81,9 +81,9 @@ let g:prettier#autoformat_require_pragma = 0
 
 set t_Co=256
 syntax enable
-set background=dark
+let g:lumen_startup_overwrite = 1 " get system's light/dark state
 try
-  colorscheme PaperColor
+  colorscheme PaperColor " load theme
 catch
   " Couldn't load colorscheme
 endtry
