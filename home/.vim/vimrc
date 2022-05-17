@@ -14,16 +14,14 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'bling/vim-airline'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'Quramy/tsuquyomi'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'kien/rainbow_parentheses.vim'
-
+Plugin 'prettier/vim-prettier'
+Plugin 'vimpostor/vim-lumen'
 call vundle#end()            " required
 filetype plugin indent on    " required
+" end of Vundle
 
 " Keymaps
 :imap jj <Esc>
