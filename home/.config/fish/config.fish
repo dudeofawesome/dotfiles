@@ -42,8 +42,5 @@ if test -f .fvm/flutter_sdk/bin/flutter
   end
 end
 
-# use local kubeconfig if present
-function k
-  kubectl --kubeconfig .kube/config $argv
-end
+abbr -a k kubectl
 
