@@ -26,6 +26,7 @@ fish_add_path $HOME/.cargo/bin
 fish_add_path $ANDROID_HOME/tools
 fish_add_path $ANDROID_HOME/tools/bin
 fish_add_path $ANDROID_HOME/platform-tools
+fish_add_path /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
 
 # `nvm use` if .nvmrc is present on shell launch
 if test -f .nvmrc || test -f .node-version
