@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'prettier/vim-prettier'
 Plugin 'vimpostor/vim-lumen'
+Plugin 'editorconfig/editorconfig-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " end of Vundle
