@@ -13,7 +13,7 @@ set -U tide_left_prompt_separator_same_color \ue0b1
 set -U tide_left_prompt_suffix \ue0b0
 
 set -U tide_right_prompt_frame_enabled false
-set -U tide_right_prompt_items status\x1ecmd_duration\x1econtext\x1ejobs\x1evirtual_env\x1ekubectl\x1etime
+set -U tide_right_prompt_items status\x1ecmd_duration\x1econtext\x1ejobs\x1evirtual_env\x1ekubectl\x1egcloud\x1etime
 set -U tide_right_prompt_prefix \ue0b2
 set -U tide_right_prompt_separator_same_color \ue0b3
 
@@ -119,3 +119,7 @@ set -U tide_vi_mode_icon_visual VISUAL
 set -U tide_virtual_env_bg_color 444444
 set -U tide_virtual_env_color 00AFAF
 set -U tide_virtual_env_icon \ue73c
+
+set -U tide_gcloud_color 000000
+set -U tide_gcloud_bg_color 2079EF
+set -U tide_gcloud_icon \ue7b2
