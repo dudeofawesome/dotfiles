@@ -10,7 +10,9 @@ abbr -a lblk lsblk --output NAME,SIZE,RM,FSTYPE,FSUSE%,SERIAL,MOUNTPOINT
 
 # load shell integrations
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
-string match -q "$TERM_PROGRAM" "vscode" and . (code --locate-shell-integration-path fish)
+if type -q code
+  string match -q "$TERM_PROGRAM" "vscode" and . (code --locate-shell-integration-path fish)
+end
 
 set -x ANDROID_HOME "$HOME/Library/Android/sdk"
 set -x ANDROID_SDK_ROOT "$HOME/Library/Android/sdk"
@@ -45,5 +47,6 @@ if test -f .fvm/flutter_sdk/bin/flutter
   end
 end
 
-abbr -a k kubectl
-
+if type -q kubectl
+  abbr -a k kubectl
+end
