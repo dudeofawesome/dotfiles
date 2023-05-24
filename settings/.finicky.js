@@ -10,5 +10,9 @@ module.exports = {
       browser: 'Google Chrome',
       // browser: '/Users/dudeofawesome/Applications/Chrome Apps.localized/Google Meet.app',
     },
+    {
+      match: ['*cloud.google.com/*'],
+      browser: 'Google Chrome',
+    },
   ],
 };
