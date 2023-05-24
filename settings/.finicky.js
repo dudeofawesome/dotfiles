@@ -14,5 +14,9 @@ module.exports = {
       match: ['*cloud.google.com/*'],
       browser: 'Google Chrome',
     },
+    {
+      match: ['*.zoom.us/*'],
+      browser: '/Applications/zoom.us.app',
+    },
   ],
 };
