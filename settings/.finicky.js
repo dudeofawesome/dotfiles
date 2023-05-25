@@ -15,7 +15,7 @@ module.exports = {
       browser: 'Google Chrome',
     },
     {
-      match: ['*.zoom.us/*'],
+      match: ['*.zoom.us/j/*'],
       browser: '/Applications/zoom.us.app',
     },
   ],
