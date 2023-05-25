@@ -18,5 +18,13 @@ module.exports = {
       match: ['*.zoom.us/j/*'],
       browser: '/Applications/zoom.us.app',
     },
+    {
+      match: ['music.apple.com/*'],
+      browser: '/System/Applications/Music.app',
+    },
+    {
+      match: ['open.spotify.com/*'],
+      browser: '/Applications/Spotify.app',
+    },
   ],
 };
