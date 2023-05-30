@@ -11,7 +11,10 @@ module.exports = {
       // browser: '/Users/dudeofawesome/Applications/Chrome Apps.localized/Google Meet.app',
     },
     {
-      match: ['*cloud.google.com/*'],
+      match: [
+        '*cloud.google.com/*',
+        'redirect.teleparty.com/join/*'
+      ],
       browser: 'Google Chrome',
     },
     {
