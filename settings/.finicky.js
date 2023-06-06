@@ -26,5 +26,9 @@ module.exports = {
       match: ['open.spotify.com/*'],
       browser: '/Applications/Spotify.app',
     },
+    {
+      match: ['https://prod.liveshare.*.visualstudio.com/join?*'],
+      browser: '/Applications/Visual Studio Code.app',
+    }
   ],
 };
