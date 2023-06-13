@@ -13,7 +13,8 @@ module.exports = {
     {
       match: [
         '*cloud.google.com/*',
-        'redirect.teleparty.com/join/*'
+        'redirect.teleparty.com/join/*',
+        'https://spectra.loggly.com/*',
       ],
       browser: 'Google Chrome',
     },
@@ -32,6 +33,6 @@ module.exports = {
     {
       match: ['https://prod.liveshare.*.visualstudio.com/join?*'],
       browser: '/Applications/Visual Studio Code.app',
-    }
+    },
   ],
 };
