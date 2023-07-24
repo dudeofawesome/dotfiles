@@ -35,11 +35,10 @@ module.exports = {
         match: ['*.zoom.us/j/*'],
         browser: '/Applications/zoom.us.app',
       },
-      // Slack seems to need the URL to be rewritten somehow
-      // {
-      //   match: ['slack://*'],
-      //   browser: '/Applications/Slack.app',
-      // },
+      {
+        match: [/^slack:\/\/.*$/],
+        browser: '/Applications/Slack.app',
+      },
       {
         match: [/^msteams:.*$/],
         browser: '/Applications/Microsoft Teams.app',
@@ -54,10 +53,32 @@ module.exports = {
   ].flat(),
   rewrite: [
     {
+      match: ['https://*.slack.com/*'],
+      url: ({ url }) => {
+        // TODO: figure out how to get this dynamically
+        const pac_slack_id = 'T1DMCHP33';
+        const path_parts = url.pathname.split('/').filter((p) => p != '');
+
+        if (path_parts[0] === 'team') {
+          return `slack://user?team=${pac_slack_id}&id=${path_parts[1]}`;
+        } else if (path_parts[0] === 'archives') {
+          if (path_parts.length === 2) {
+            return `slack://channel?team=${pac_slack_id}&id=${path_parts[1]}`;
+          } else if (path_parts.length === 3) {
+            // return `slack://channel?team=${pac_slack_id}&id=${path_parts[1]}&ts=${path_parts[2]}`;
+          }
+        }
+
+        return url;
+      },
+    },
+    {
       match: ['teams.microsoft.com/l/meetup-join/*'],
       // Teams only supports a broken URI scheme without the proper slashes between proto and host.
       url: ({ url }) =>
-        `msteams:${url.pathname}${url.search ? `?${url.search}` : ''}${url.hash ? `#${url.hash}` : ''}`,
+        `msteams:${url.pathname}${url.search ? `?${url.search}` : ''}${
+          url.hash ? `#${url.hash}` : ''
+        }`,
     },
   ],
 };
