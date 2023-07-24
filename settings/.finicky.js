@@ -40,6 +40,10 @@ module.exports = {
       //   match: ['slack://*'],
       //   browser: '/Applications/Slack.app',
       // },
+      {
+        match: [/^msteams:.*$/],
+        browser: '/Applications/Microsoft Teams.app',
+      },
     ],
     /* Other */ [
       {
@@ -48,4 +52,12 @@ module.exports = {
       },
     ],
   ].flat(),
+  rewrite: [
+    {
+      match: ['teams.microsoft.com/l/meetup-join/*'],
+      // Teams only supports a broken URI scheme without the proper slashes between proto and host.
+      url: ({ url }) =>
+        `msteams:${url.pathname}${url.search ? `?${url.search}` : ''}${url.hash ? `#${url.hash}` : ''}`,
+    },
+  ],
 };
