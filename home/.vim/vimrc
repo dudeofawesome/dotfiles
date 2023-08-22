@@ -5,24 +5,23 @@ filetype off " required
 " set shell to bash for compatibility with fish
 set shell=/bin/bash
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'bling/vim-airline'
-Plugin 'rizzatti/dash.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'prettier/vim-prettier'
-Plugin 'vimpostor/vim-lumen'
-Plugin 'editorconfig/editorconfig-vim'
-call vundle#end()            " required
-filetype plugin indent on    " required
-" end of Vundle
+if isdirectory("~/.vim/bundle")
+  " set the runtime path to include Vundle and initialize
+  set rtp+=~/.vim/bundle/Vundle.vim
+  call vundle#begin()
+  " let Vundle manage Vundle, required
+  Plugin 'VundleVim/Vundle.vim'
+  Plugin 'NLKNguyen/papercolor-theme'
+  Plugin 'bling/vim-airline'
+  Plugin 'rizzatti/dash.vim'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'kien/rainbow_parentheses.vim'
+  Plugin 'prettier/vim-prettier'
+  Plugin 'vimpostor/vim-lumen'
+  Plugin 'editorconfig/editorconfig-vim'
+  call vundle#end()            " required
+  filetype plugin indent on    " required
+endif
 
 " Keymaps
 :imap jj <Esc>
