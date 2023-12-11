@@ -32,7 +32,7 @@ module.exports = {
         // browser: '/Users/dudeofawesome/Applications/Chrome Apps.localized/Google Meet.app',
       },
       {
-        match: ['*.zoom.us/j/*'],
+        match: ['*.zoom.us/j/*', '*.zoom.us/my/*'],
         browser: '/Applications/zoom.us.app',
       },
       {
